@@ -4,7 +4,6 @@ import { TarefasService } from './shared';
 import { ListarTarefaComponent } from './listar';
 import { CadNovoComponent } from './cad-novo/cad-novo.component';
 
-
 @NgModule({
   imports: [
     CommonModule
