@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TarefasService } from './shared';
 import { ListarTarefaComponent } from './listar';
+import { CadNovoComponent } from './cad-novo/cad-novo.component';
 
 
 @NgModule({
@@ -9,7 +10,8 @@ import { ListarTarefaComponent } from './listar';
     CommonModule
   ],
   declarations: [
-    ListarTarefaComponent
+    ListarTarefaComponent,
+    CadNovoComponent
   ],
   providers: [
     TarefasService

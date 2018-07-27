@@ -1,0 +1,12 @@
+$purple: #6d009a;
+@mixin fonte-tamanho($fonte, $tamanho) {
+    font-family: $fonte;
+    font-size: $tamanho;
+}
+
+.cadNovo {
+    .novinhoTeste {
+        color: $purple;
+        @include fonte-tamanho(arial, 15px);
+    }
+}
