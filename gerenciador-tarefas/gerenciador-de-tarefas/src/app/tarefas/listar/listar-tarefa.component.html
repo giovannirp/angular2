@@ -5,7 +5,11 @@
           <th width="800">Tarefa</th>
           <th width="100">Concluida</th>
           <th>
-            <a class="btn btn-success">Novo</a>
+            <a 
+                class="btn btn-success"
+                [routerLink]="['/tarefas/cadastrar']">
+              Novo
+            </a>
           </th>
         </tr>
       </thead>

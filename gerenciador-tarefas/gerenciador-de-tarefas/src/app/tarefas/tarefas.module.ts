@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { TarefasService } from './shared';
 import { ListarTarefaComponent } from './listar';
 import { CadNovoComponent } from './cad-novo/cad-novo.component';
+import { CadastrarTarefaComponent } from './cadastrar';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { CadNovoComponent } from './cad-novo/cad-novo.component';
   ],
   declarations: [
     ListarTarefaComponent,
-    CadNovoComponent
+    CadNovoComponent,
+    CadastrarTarefaComponent
   ],
   providers: [
     TarefasService
