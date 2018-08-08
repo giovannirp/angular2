@@ -23,7 +23,9 @@
                   [checked]="tarefa.concluida">
           </td>
           <td>
-              <a class="btn btn-info">Editar</a>
+              <a class="btn btn-info"
+                [routerLink]="['/tarefas/editar', tarefa.id]"
+                >Editar</a>
               <a class="btn btn-danger">Remover</a>
           </td>
         </tr>      
