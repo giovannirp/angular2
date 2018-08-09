@@ -6,7 +6,7 @@ import { TarefaRoutes } from './tarefas';
 export const routes: Routes = [
     {
         path: '',
-        redirectTo: '/tarefas/listar',
+        redirectTo: '/tarefas/home',
         pathMatch: 'full'
     },
     ...TarefaRoutes

@@ -3,11 +3,16 @@ import { ListarTarefaComponent } from './listar';
 import { CadNovoComponent } from './cad-novo';
 import { CadastrarTarefaComponent } from './cadastrar';
 import { EditarTarefaComponent } from './editar';
+import { HomeComponent } from './home';
 
 export const TarefaRoutes: Routes = [
     {
         path: 'tarefas',
-        redirectTo: 'tarefas/listar'
+        redirectTo: 'tarefas/home'
+    },
+    {
+        path: 'tarefas/home',
+        component: HomeComponent
     },
     {
         path: 'tarefas/listar',

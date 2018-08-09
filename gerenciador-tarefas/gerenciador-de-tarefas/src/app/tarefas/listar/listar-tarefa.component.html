@@ -26,7 +26,8 @@
               <a class="btn btn-info"
                 [routerLink]="['/tarefas/editar', tarefa.id]"
                 >Editar</a>
-              <a class="btn btn-danger">Remover</a>
+              <a class="btn btn-danger"
+                (click)="remover($event, tarefa)">Remover</a>
           </td>
         </tr>      
       </tbody>

@@ -8,6 +8,7 @@ import { ListarTarefaComponent } from './listar';
 import { CadNovoComponent } from './cad-novo/cad-novo.component';
 import { CadastrarTarefaComponent } from './cadastrar';
 import { EditarTarefaComponent } from './editar/editar-tarefa.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import { EditarTarefaComponent } from './editar/editar-tarefa.component';
     ListarTarefaComponent,
     CadNovoComponent,
     CadastrarTarefaComponent,
-    EditarTarefaComponent
+    EditarTarefaComponent,
+    HomeComponent
   ],
   providers: [
     TarefasService
