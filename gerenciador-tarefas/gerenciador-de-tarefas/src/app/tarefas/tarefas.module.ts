@@ -10,6 +10,7 @@ import { CadastrarTarefaComponent } from './cadastrar';
 import { EditarTarefaComponent } from './editar/editar-tarefa.component';
 import { HomeComponent } from './home/home.component';
 import { TarefaConcluidaDirective } from './shared/tarefa-concluida.directive';
+import { ListaTelefoneComponent } from './lista-telefone/lista-telefone.component';
 
 @NgModule({
   imports: [
@@ -23,7 +24,8 @@ import { TarefaConcluidaDirective } from './shared/tarefa-concluida.directive';
     CadastrarTarefaComponent,
     EditarTarefaComponent,
     HomeComponent,
-    TarefaConcluidaDirective
+    TarefaConcluidaDirective,
+    ListaTelefoneComponent
   ],
   providers: [
     TarefasService

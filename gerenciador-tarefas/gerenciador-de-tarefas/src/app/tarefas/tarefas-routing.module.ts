@@ -4,6 +4,7 @@ import { CadNovoComponent } from './cad-novo';
 import { CadastrarTarefaComponent } from './cadastrar';
 import { EditarTarefaComponent } from './editar';
 import { HomeComponent } from './home';
+import { ListaTelefoneComponent } from './lista-telefone';
 
 export const TarefaRoutes: Routes = [
     {
@@ -29,6 +30,10 @@ export const TarefaRoutes: Routes = [
     {
         path: 'tarefas/editar/:id',
         component: EditarTarefaComponent
+    }, 
+    {
+        path: 'tarefas/lista-telefones',
+        component: ListaTelefoneComponent
     }
 
     

@@ -6,3 +6,4 @@ export * from './cad-novo';
 export * from './cadastrar';
 export * from './editar';
 export * from './home';
+export * from './lista-telefone';
