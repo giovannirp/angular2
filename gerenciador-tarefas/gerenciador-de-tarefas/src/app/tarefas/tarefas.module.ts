@@ -9,6 +9,7 @@ import { CadNovoComponent } from './cad-novo/cad-novo.component';
 import { CadastrarTarefaComponent } from './cadastrar';
 import { EditarTarefaComponent } from './editar/editar-tarefa.component';
 import { HomeComponent } from './home/home.component';
+import { TarefaConcluidaDirective } from './shared/tarefa-concluida.directive';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { HomeComponent } from './home/home.component';
     CadNovoComponent,
     CadastrarTarefaComponent,
     EditarTarefaComponent,
-    HomeComponent
+    HomeComponent,
+    TarefaConcluidaDirective
   ],
   providers: [
     TarefasService
