@@ -8,7 +8,8 @@
             <a 
                 class="btn btn-success"
                 [routerLink]="['/tarefas/cadastrar']">
-              Novo
+              <div class="glyphicon glyphicon-new-window"></div>
+              <strong>Novo</strong>
             </a>
           </th>
         </tr>
@@ -27,10 +28,15 @@
           </td>
           <td>
               <a class="btn btn-info"
-                [routerLink]="['/tarefas/editar', tarefa.id]"
-                >Editar</a>
+                [routerLink]="['/tarefas/editar', tarefa.id]">
+                <div class="glyphicon glyphicon-pencil"></div>
+              </a>
               <a class="btn btn-danger"
-                (click)="remover($event, tarefa)">Remover</a>
+                (click)="remover($event, tarefa)">
+                <div class="glyphicon glyphicon-trash">
+
+                </div>  
+              </a>
           </td>
         </tr>      
       </tbody>

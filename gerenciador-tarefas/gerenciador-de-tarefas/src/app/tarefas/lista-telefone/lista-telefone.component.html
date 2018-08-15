@@ -1,14 +1,18 @@
 <table class="table table-dark">
   <thead>
     <tr>
-      <th scope="col">#</th>
+      <th scope="col">
+      &nbsp;
+      </th>
       <th scope="col">Nome</th>
       <th scope="col">Telefone</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let telefone of tel">
-      <th scope="row">1</th>
+      <th scope="row">
+        <div class="glyphicon glyphicon-user"></div>
+      </th>
       <td>{{telefone.nome}}</td>
       <td>{{telefone.telefone}}</td>
     </tr>
