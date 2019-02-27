@@ -1,7 +1,7 @@
  <!-- INíCIO do CONTEÚDO -->
- <section class="content-header">
+ <section class="content-header adapterContainer">
   <h1>
-    Todos os Restaurantes
+    Todos os musica
   </h1>
 </section>
 
@@ -9,14 +9,10 @@
 <section class="content">
 
   <div class="row">
-
-
-          <div class="col-sm-6 col-xs-12" *ngFor="let musica of musicas">
-            <app-musica [musica]="musica"></app-musica>
-          </div>
-          
-
-        </div>
+    <div class="col-sm-3 col-xs-12" *ngFor="let musica of musicas">
+      <app-musica [musica]="musica"></app-musica>
+    </div>
+  </div>
 
 </section>
 
