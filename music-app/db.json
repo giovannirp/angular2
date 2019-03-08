@@ -21,9 +21,9 @@
       "hours": "Funciona todos os dias, de 10h às 22h"
     },
     {
-      "id": "coffee-corner",
-      "name": "Coffee Corner",
-      "category": "Coffee Shop",
+      "id": "raimundos",
+      "name": "Raimundos",
+      "category": "Rock",
       "deliveryEstimate": "30-40m",
       "rating": 4.8,
       "imagePath": "assets/img/musicas/img3.jpg",
@@ -59,6 +59,17 @@
       "imagePath": "assets/img/restaurants/tasty.png",
       "about": "A doceria com mais tradição da cidade",
       "hours": "Funciona de segunda à sábado, de 8h às 23h"
+    },
+    {
+      "id": "doctors",
+      "imagePath": "assets/img/musicas/doctors.jpg",
+      "name": "Doctors MCś",
+      "category": "Rap",
+      "description": "Rap Nacional",
+      "deliveryEstimate": "20m",
+      "price": 8.7,
+      "rating": 4.4,
+      "restaurantId": "bread-bakery"
     }
   ],
   "menu": [

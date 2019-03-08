@@ -1,11 +1,13 @@
-<div class="box">
-  <div class="img">
-    <img [src]="musica.imagePath" />
+<a href="#">
+  <div class="place-info-box">
+    <span class="place-info-box-icon"><img [src]="musica.imagePath" /></span>
+
+    <div class="place-info-box-content">
+      <span class="place-info-box-text">{{musica.name}}</span>
+      <span class="place-info-box-star"><i class="fa fa-star"></i> {{musica.rating}}</span>
+      <span class="place-info-box-detail">{{musica.category}}</span>
+      <span class="place-info-box-detail">{{musica.deliveryEstimate}}</span>
+    </div>
+    <!-- /.info-box-content -->
   </div>
-  <div class="content">
-    <span class="place-info-box-text">{{musica.name}}</span>
-    <span class="place-info-box-star"><i class="fa fa-star"></i> {{musica.rating}}</span>
-    <div class="place-info-box-detail">{{musica.category}}</div>
-    <span class="place-info-box-detail">{{musica.deliveryEstimate}}</span>
-  </div>
-</div>
+</a>

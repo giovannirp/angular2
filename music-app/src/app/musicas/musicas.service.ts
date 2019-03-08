@@ -5,6 +5,8 @@ import 'rxjs/add/operator/map';
 
 import { Musica } from "./musica/musica.model";
 import { MEAT_API } from "../app.api";
+import 'rxjs/add/operator/catch';
+import { ErrorHandler } from '../app.error-handler';
 
 
 @Injectable()
@@ -16,5 +18,6 @@ export class MusicasService {
 
       return this.http.get(`${MEAT_API}/musicas`)
         .map(response => response.json())
+        .catch(ErrorHandler.handlerError);
     }
 }
