@@ -1,4 +1,4 @@
-# Meat - Angular App Starter
+# Meat - Angular App Music
 
 ## 1. Passos para começar
 
@@ -86,7 +86,7 @@ Dependências dos pacotes que devem ficar em package.json:
   }
 ```
 
-## Upgrade para Angular 6 (Apenas para a aulas finais)
+## Upgrade para Angular 6
 
 Dependências dos pacotes que devem ficar em package.json:
 
