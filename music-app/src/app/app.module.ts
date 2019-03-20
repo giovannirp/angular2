@@ -12,6 +12,8 @@ import { HeaderComponent } from './header/header.component';
 import { MusicasComponent } from './musicas/musicas.component';
 import { MusicaComponent } from './musicas/musica/musica.component';
 import { MusicasService } from './musicas/musicas.service';
+import { DepoimentosComponent } from './depoimentos/depoimentos.component';
+import { DepoimentoComponent } from './depoimentos/depoimento/depoimento.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { MusicasService } from './musicas/musicas.service';
     HomeComponent,
     HeaderComponent,
     MusicasComponent,
-    MusicaComponent
+    MusicaComponent,
+    DepoimentosComponent,
+    DepoimentoComponent
     ],
   imports: [
     BrowserModule,
