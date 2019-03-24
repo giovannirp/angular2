@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Depoimento } from './depoimento/depoimento.model';
+import { DepoimentoService } from './depoimento.service';
 
 @Component({
   selector: 'mt-depoimentos',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DepoimentosComponent implements OnInit {
 
-  constructor() { }
+  depoimentos: Depoimento[]
+
+
+  constructor(private depoimentoService: DepoimentoService) { }
 
   ngOnInit() {
+    this.depoimentoService.depoimentos()
+      .subscribe(depoimentos => this.depoimentos = depoimentos)
   }
 
 }

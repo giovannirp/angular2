@@ -2,12 +2,12 @@
     <h1>
       Depoimentos
     </h1>
-   </section>
+</section>
 
 <section class="content">
   <div class="row">
-    <div class="col-sm-12 col-xs-12" >
-        <mt-depoimento></mt-depoimento>
+    <div *ngFor="let depoimento of depoimentos" class="col-sm-12 col-xs-12" >
+        <mt-depoimento [depoimento]="depoimento"></mt-depoimento>
     </div>
   </div>
 </section>

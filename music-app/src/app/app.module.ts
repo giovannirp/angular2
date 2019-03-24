@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { MusicasComponent } from './musicas/musicas.component';
 import { MusicaComponent } from './musicas/musica/musica.component';
 import { MusicasService } from './musicas/musicas.service';
+import { DepoimentoService } from './depoimentos/depoimento.service';
 import { DepoimentosComponent } from './depoimentos/depoimentos.component';
 import { DepoimentoComponent } from './depoimentos/depoimento/depoimento.component';
 
@@ -32,7 +33,9 @@ import { DepoimentoComponent } from './depoimentos/depoimento/depoimento.compone
     HttpModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [MusicasService],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
+  providers: [MusicasService, DepoimentoService],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }
