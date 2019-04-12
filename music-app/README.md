@@ -4,7 +4,11 @@
 
 ### Clonando o Repositório
 
-`git clone https://github.com/cod3rcursos/meat-app-starter.git`
+`git clone https://github.com/giovannirp/angular2.git`
+
+### Entrar no diretorio 
+
+`angular2/music-app/`
 
 ### Instalando as Dependências
 
