@@ -21,6 +21,12 @@ export class MusicasService {
         .catch(ErrorHandler.handlerError);
     }
 
+    musicaById(id: string): Observable<Musica>{
+        return this.http.get(`${MEAT_API}/musicas/${id}`)
+        .map(response => response.json())
+        .catch(ErrorHandler.handlerError)
+    }
+
 
 
 }

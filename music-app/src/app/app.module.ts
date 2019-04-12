@@ -15,6 +15,10 @@ import { MusicasService } from './musicas/musicas.service';
 import { DepoimentoService } from './depoimentos/depoimento.service';
 import { DepoimentosComponent } from './depoimentos/depoimentos.component';
 import { DepoimentoComponent } from './depoimentos/depoimento/depoimento.component';
+import { MusicaDetailComponent } from './musica-detail/musica-detail.component';
+import { MenuComponent } from './musica-detail/menu/menu.component';
+import { ShoppingCartComponent } from './musica-detail/shopping-cart/shopping-cart.component';
+import { MenuItemComponent } from './musica-detail/menu-item/menu-item.component';
 
 
 @NgModule({
@@ -26,7 +30,11 @@ import { DepoimentoComponent } from './depoimentos/depoimento/depoimento.compone
     MusicasComponent,
     MusicaComponent,
     DepoimentosComponent,
-    DepoimentoComponent
+    DepoimentoComponent,
+    MusicaDetailComponent,
+    MenuComponent,
+    ShoppingCartComponent,
+    MenuItemComponent
     ],
   imports: [
     BrowserModule,
