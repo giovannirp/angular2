@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { MusicasComponent } from './musicas/musicas.component';
 import { DepoimentosComponent } from './depoimentos/depoimentos.component';
 import { MusicaDetailComponent } from './musica-detail/musica-detail.component';
+import { FaqComponent } from './faq/faq.component';
 
 export const ROUTES: Routes = [
     {path: '', component: HomeComponent},
@@ -11,4 +12,5 @@ export const ROUTES: Routes = [
     {path:'musicas', component: MusicasComponent},
     {path:'musicas/:id', component: MusicaDetailComponent},
     {path:'depoimentos', component: DepoimentosComponent},
+    {path:'faq', component: FaqComponent}
 ];
