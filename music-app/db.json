@@ -230,14 +230,14 @@
       "name": "Aline",
       "date": "2016-12-12T18:25:43",
       "rating": 3,
-      "comments": "NÃO recomendo. O recheio é só um creme, não tem camarão e nem carne",
+      "comments": "NÃO recomendo. as musicas são ruins.",
       "restaurantId": "bread-bakery"
     },
     {
       "name": "Renata",
       "date": "2016-12-12T18:25:43",
       "rating": 2,
-      "comments": "Não foi muito agradável ao nosso paladar, e eu e meu esposo no outro dia passamos super mal. Pode até ter sido outra coisa, mas...",
+      "comments": "Não foi muito agradável, e eu e meu esposo no outro dia passamos super mal com as musicas. Pode até ter sido outra coisa, mas...",
       "restaurantId": "bread-bakery"
     },
     {
@@ -258,7 +258,7 @@
       "name": "Laila",
       "date": "2017-02-02T18:25:43",
       "rating": 5,
-      "comments": "Melhor hambúrguer que já provei. Vai ser difícil voltar para mc e bk",
+      "comments": "Muito bom. Vai ser difícil voltar ir para som livre ou UOL",
       "restaurantId": "burger-house"
     },
     {
