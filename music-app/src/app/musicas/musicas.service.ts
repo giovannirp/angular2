@@ -7,6 +7,7 @@ import { Musica } from "./musica/musica.model";
 import { MEAT_API } from "../app.api";
 import 'rxjs/add/operator/catch';
 import { ErrorHandler } from '../app.error-handler';
+import { MenuItem } from "../musica-detail/menu-item/menu-item.model";
 
 
 @Injectable()
@@ -33,6 +34,11 @@ export class MusicasService {
         .catch(ErrorHandler.handlerError)
     }
 
+    menuOfRestaurant(id: string): Observable<MenuItem[]>{
+        return this.http.get(`${MEAT_API}/musicas/${id}/menu`)
+        .map(response => response.json())
+        .catch(ErrorHandler.handlerError)
+    }
 
 
 }

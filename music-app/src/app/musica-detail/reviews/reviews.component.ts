@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { MusicasService } from '../../musicas/musicas.service';
 
-
 import { Observable } from 'rxjs/Observable';
 
 @Component({
