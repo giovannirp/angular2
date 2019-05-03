@@ -21,6 +21,7 @@ import { ShoppingCartComponent } from './musica-detail/shopping-cart/shopping-ca
 import { MenuItemComponent } from './musica-detail/menu-item/menu-item.component';
 import { FaqComponent } from './faq/faq.component';
 import { ReviewsComponent } from './musica-detail/reviews/reviews.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { ReviewsComponent } from './musica-detail/reviews/reviews.component';
     ShoppingCartComponent,
     MenuItemComponent,
     FaqComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    ContactComponent
     ],
   imports: [
     BrowserModule,

@@ -7,6 +7,7 @@ import { MusicaDetailComponent } from './musica-detail/musica-detail.component';
 import { FaqComponent } from './faq/faq.component';
 import { MenuComponent } from './musica-detail/menu/menu.component';
 import { ReviewsComponent } from './musica-detail/reviews/reviews.component';
+import { ContactComponent } from './contact/contact.component';
 
 export const ROUTES: Routes = [
     {path: '', component: HomeComponent},
@@ -19,5 +20,6 @@ export const ROUTES: Routes = [
             {path: 'reviews', component: ReviewsComponent}
         ]},
     {path:'depoimentos', component: DepoimentosComponent},
-    {path:'faq', component: FaqComponent}
+    {path:'faq', component: FaqComponent},
+    {path:'contact', component: ContactComponent}
 ];

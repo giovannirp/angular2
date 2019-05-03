@@ -34,7 +34,7 @@ export class MusicasService {
         .catch(ErrorHandler.handlerError)
     }
 
-    menuOfRestaurant(id: string): Observable<MenuItem[]>{
+    menuOfMusica(id: string): Observable<MenuItem[]>{
         return this.http.get(`${MEAT_API}/musicas/${id}/menu`)
         .map(response => response.json())
         .catch(ErrorHandler.handlerError)

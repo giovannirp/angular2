@@ -7,9 +7,9 @@ import { MenuItem } from './menu-item.model';
 })
 export class MenuItemComponent implements OnInit {
 
+
   @Input() menuItem: MenuItem
   @Output() add = new EventEmitter()
-
 
   constructor() { }
 
@@ -17,7 +17,8 @@ export class MenuItemComponent implements OnInit {
   }
 
   emitAddEvent(){
-    this.add.emit(this.menuItem);
+    this.add.emit(this.menuItem)
   }
+ 
 
 }
