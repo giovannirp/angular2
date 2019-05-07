@@ -1,3 +1,37 @@
-<p>
-  Fale conosco
-</p>
+<section class="content-header adapterContainer">
+    <h1>
+        Fale conosco
+    </h1>
+  </section>
+  {{form.valid}}
+  {{form.value | json}} 
+
+
+<section class="content">
+  <div class="col-md-6 col-xs-12">
+        <form #form="ngForm" novalidate>
+          <div class="form-group" [class.has-success]="iptNome.valid && (iptNome.dirty || iptNome.touched)"
+                                  [class.has-error]="!iptNome.valid && (iptNome.dirty || iptNome.touched)">
+              <label for="nome">Nome:</label>
+              <input type="text" class="form-control" name="nome" #iptNome="ngModel" ngModel id="nome" required minlength="5" placeholder="Digite seu Nome" autocomplete="off">
+              <span class="help-block" *ngIf="iptNome.valid && (iptNome.dirty || iptNome.touched)"><i class="fa fa-check">Ok</i></span>
+              <span class="help-block" *ngIf="!iptNome.valid && (iptNome.dirty || iptNome.touched)"><i class="fa fa-remove">Campo Obrigatório</i></span>
+            </div>
+            <div class="form-group" [class.has-success]="iptEmail.valid && (iptEmail.dirty || iptEmail.touched)"
+                                    [class.has-error]="!iptEmail.valid && (iptEmail.dirty || iptEmail.touched)">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" name="email" required #iptEmail="ngModel" ngModel id="email" required placeholder="Enter email" autocomplete="off">
+                <span class="help-block" *ngIf="iptEmail.valid && (iptEmail.dirty || iptEmail.touched)"><i class="fa fa-check">Ok</i></span>
+                <span class="help-block" *ngIf="!iptEmail.valid && (iptEmail.dirty || iptEmail.touched)"><i class="fa fa-remove">Campo Obrigatório</i></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Mensagem:</label>
+                <textarea class="form-control" id="mensagem" name="mensagem" ngModel></textarea>
+              </div>
+            <div class="checkbox">
+              <label><input type="checkbox" name="remember"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-default" [disabled]="!form.valid">Enviar</button>
+        </form>
+  </div>
+</section>
