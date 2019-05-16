@@ -1,0 +1,35 @@
+.header {
+  box-shadow: 2px 2px 2px #e6e6e6;
+  margin-bottom: 20px;
+  position: fixed;
+  z-index: 99999;
+  background: #ca3737;
+  width: 100%;
+
+  ul {
+    display: flex;
+
+    li {}
+  }
+
+  .menu {
+    width: 100%;
+
+    ul {
+      justify-content: flex-end;
+      height: 100%;
+      align-items: center;
+
+      li {
+        a {
+          text-decoration: none;
+          color: #ffffff;
+          padding: 10px;
+          font-weight: bold;
+          font-family: arial;
+
+        }
+      }
+    }
+  }
+}
