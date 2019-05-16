@@ -1,4 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.active {
+  background: #fff;
+  border-radius: 7px;
+  padding: 10px;
+  a {
+    color:#ca3737 !important;
+  }
+}
+
 .wr-site {
   .ct {
     width: 930px;

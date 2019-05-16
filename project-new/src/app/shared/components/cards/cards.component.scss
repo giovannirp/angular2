@@ -12,6 +12,7 @@
       padding: 10px 0;
       height: 20px;
       display: table;
+      text-transform: uppercase;
       width: 100%;
 
       p {
@@ -51,6 +52,7 @@
           color: #6c6b6b;
           font-size: 15px;
           font-weight: bold;
+          text-transform: uppercase;
         }
 
         p {
@@ -58,6 +60,7 @@
           color: #6c6b6b;
           margin-top: 10px;
           line-height: 21px;
+          font-family: arial;
         }
       }
 

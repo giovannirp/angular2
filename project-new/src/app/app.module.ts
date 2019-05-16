@@ -12,6 +12,7 @@ import { CardsComponent } from './shared/components/cards/cards.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
 import { CarrocelComponent } from './shared/components/carrocel/carrocel.component';
+import { AboutComponent } from './page/about/about.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CarrocelComponent } from './shared/components/carrocel/carrocel.compone
     CardsComponent,
     FooterComponent,
     SidebarComponent,
-    CarrocelComponent
+    CarrocelComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
