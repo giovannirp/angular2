@@ -3,7 +3,7 @@
       <h1><img src="assets/img/logo.png" /></h1>
       <div class="menu">
           <ul>
-              <li routerLinkActive="active">
+              <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                   <a [routerLink]="['/']">Home</a>
               </li>
               <li routerLinkActive="active">
