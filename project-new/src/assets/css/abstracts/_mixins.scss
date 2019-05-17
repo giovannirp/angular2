@@ -1,0 +1,130 @@
+//MIX INs
+
+@mixin animation($animate...) {
+  $max: length($animate);
+  $animations: '';
+
+  @for $i from 1 through $max {
+      $animations: #{$animations + nth($animate, $i)};
+
+      @if $i < $max {
+          $animations: #{$animations + ", "};
+      }
+  }
+
+  -webkit-animation: $animations;
+  -moz-animation: $animations;
+  -o-animation: $animations;
+  animation: $animations;
+}
+
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+      @content;
+  }
+
+  @-moz-keyframes #{$animationName} {
+      @content;
+  }
+
+  @-o-keyframes #{$animationName} {
+      @content;
+  }
+
+  @keyframes #{$animationName} {
+      @content;
+  }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin opacity($value) {
+  $IEValue: $value*100;
+
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$IEValue+")";
+  filter: alpha(opacity=$IEValue);
+  opacity: $value;
+}
+
+@mixin box-sizing($box-model: border-box) {
+  -webkit-box-sizing: $box-model;
+  -moz-box-sizing: $box-model;
+  box-sizing: $box-model;
+}
+
+@mixin transition($property, $duration, $timing-function, $delay) {
+  -webkit-transition: $property $duration $timing-function $delay;
+  -moz-transition: $property $duration $timing-function $delay;
+  -ms-transition: $property $duration $timing-function $delay;
+  -o-transition: $property $duration $timing-function $delay;
+  transition: $property $duration $timing-function $delay;
+
+}
+
+@mixin transform($transforms) {
+  -moz-transform: $transforms;
+  -o-transform: $transforms;
+  -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+  transform: $transforms;
+}
+
+
+// rotate
+@mixin rotate ($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+
+// scale
+@mixin scale($scale) {
+  @include transform(scale($scale));
+}
+
+// translate
+@mixin translate ($x, $y) {
+  @include transform(translate($x, $y));
+}
+
+// skew
+
+@mixin text-shadow($left, $top, $blur, $colorHex) {
+  -webkit-box-shadow: $left $top $blur $colorHex;
+  -moz-box-shadow: $left $top $blur $colorHex;
+  box-shadow: $left $top $blur $colorHex;
+}
+
+@mixin box-shadow($left, $top, $blur, $spread, $colorRGBA, $inset: false) {
+  @if $inset {
+      -webkit-box-shadow: inset $left $top $blur $spread $colorRGBA;
+      -moz-box-shadow: inset $left $top $blur $spread $colorRGBA;
+      box-shadow: inset $left $top $blur $spread $colorRGBA;
+  }
+  @else {
+      -webkit-box-shadow: $left $top $blur $spread $colorRGBA;
+      -moz-box-shadow: $left $top $blur $spread $colorRGBA;
+      box-shadow: $left $top $blur $spread $colorRGBA;
+  }
+}
+
+@mixin media_query($mq_min, $mq_max) {
+  @media screen and (min-width: $mq_min) and (max-width: $mq_max) {
+      @content;
+  }
+}
+
+@mixin media_tablet {
+  @media screen and (min-width: $mq_tablet_min) and (max-width: $mq_tablet_max) {
+      @content;
+  }
+}
+
+@mixin media_mobile {
+  @media screen and (min-width: $mq_mobile_min) and (max-width: $mq_mobile_max) {
+      @content;
+  }
+}
