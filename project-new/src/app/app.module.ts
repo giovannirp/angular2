@@ -14,6 +14,8 @@ import { SidebarComponent } from './shared/components/sidebar/sidebar.component'
 import { CarrocelComponent } from './shared/components/carrocel/carrocel.component';
 import { AboutComponent } from './page/about/about.component';
 import { CardComponent } from './shared/components/cards/card/card.component';
+import { CardService } from './shared/components/cards/card.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -29,10 +31,11 @@ import { CardComponent } from './shared/components/cards/card/card.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutesModule
+    AppRoutesModule,
+    HttpClientModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
-  providers: [],
+  providers: [CardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

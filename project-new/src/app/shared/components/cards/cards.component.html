@@ -1,20 +1,5 @@
 <div class="vitrine">
-  <ul>
-    <li class="vermelho" *ngFor="let listVitrine of array">
-      <div class="selo-desconto">
-        <p><strong>{{listVitrine.name}}dfdf </strong></p>
-      </div>
-      <div class="logo-parceiro">
-        <img src="{{listVitrine.imgPath}}" alt="">dfdf
-      </div>
-      <div class="descricao">
-        <h4>{{listVitrine.desconto}}</h4>
-        <p>{{listVitrine.description}}
-        </p>
-      </div>
-      <a href="#">
-        <button class="btn-resgatar" type="button">Ver mais</button>
-      </a>
-    </li>
-  </ul>
+  <div *ngFor="let card of cards">
+      <app-card [card]="card"></app-card>
+  </div>
 </div>

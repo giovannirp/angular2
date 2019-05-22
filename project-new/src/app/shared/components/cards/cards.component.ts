@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CardService } from '../cards/card.service';
+import { Card } from './card/card.model';
 
 @Component({
   selector: 'app-cards',
@@ -7,8 +9,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardsComponent implements OnInit {
 
-  constructor() { }
+  cards: Card[];
 
+  constructor(private cardService: CardService) { }
+
+  ngOnInit() {
+    this.cardService.getCards()
+    .subscribe(cards => this.cards = cards);
+  }
+
+}
+
+
+
+
+
+ /*
   array = [
     {
       name: 'Avon Store',
@@ -29,8 +45,4 @@ export class CardsComponent implements OnInit {
       description: '1% de desconto através do hotsite da parceria. Não cumulativo com outras promoções',
     },
   ];
-
-  ngOnInit() {
-  }
-
-}
+  */

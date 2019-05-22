@@ -1,18 +1,18 @@
-<ul>
-  <li class="vermelho" *ngFor="let listVitrine of array">
+  <ul>
+    <li class="vermelho" >
       <div class="selo-desconto">
-          <p><strong>{{listVitrine.name}}dfdf </strong></p>
+        <p><strong>{{card.name}} </strong></p>
       </div>
       <div class="logo-parceiro">
-          <img src="{{listVitrine.imgPath}}" alt="">
+        <img src="{{card.imgPath}}" alt="">
       </div>
       <div class="descricao">
-          <h4>{{listVitrine.desconto}}</h4>
-          <p>{{listVitrine.description}}
-            </p>
+        <h4>{{card.desconto}}</h4>
+        <p>{{card.description}}
+        </p>
       </div>
       <a href="#">
-          <button class="btn-resgatar" type="button">Ver mais</button>
+        <button class="btn-resgatar" type="button">Ver mais</button>
       </a>
     </li>
-</ul>
+  </ul>
