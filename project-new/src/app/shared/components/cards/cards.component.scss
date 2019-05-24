@@ -6,30 +6,7 @@
   ul {
     display: flex;
 
-    .selo-desconto {
-      text-align: center;
-      background-color: #ca3737;
-      padding: 10px 0;
-      height: 20px;
-      display: table;
-      text-transform: uppercase;
-      width: 100%;
 
-      p {
-        color: #fff;
-        font-family: "CorporateACon";
-        font-size: 25px;
-        display: table-cell;
-        vertical-align: middle;
-        padding-left: 10px;
-        padding-right: 10px;
-
-        strong {
-          font-size: 17px;
-          font-family: arial;
-        }
-      }
-    }
 
     li {
       width: calc(31% - 10px);
@@ -41,65 +18,9 @@
       -moz-box-sizing: border-box;
       box-sizing: border-box;
 
-      .descricao {
-        border-top: 1px solid #ebebeb;
-        border-bottom: 1px solid #ebebeb;
-        padding: 15px 30px;
-        text-align: center;
-        height: 160px;
 
-        h4 {
-          color: #6c6b6b;
-          font-size: 15px;
-          font-weight: bold;
-          text-transform: uppercase;
-          font-family: Arial;
-        }
 
-        p {
-          font-size: 14px;
-          color: #6c6b6b;
-          margin-top: 10px;
-          line-height: 21px;
-          font-family: arial;
-        }
-      }
 
-      .logo-parceiro {
-        height: 120px;
-        position: relative;
-        box-sizing: border-box;
-
-        img {
-          max-width: calc(100% - 40px);
-          max-height: calc(100% - 40px);
-          position: absolute;
-          left: 50%;
-          top: 50%;
-          transform: translate(-50%, -50%);
-        }
-      }
-
-      a {
-        text-decoration: none;
-
-        .btn-resgatar {
-          width: 150px;
-          height: 40px;
-          -webkit-border-radius: 5px;
-          -moz-border-radius: 5px;
-          -ms-border-radius: 5px;
-          border-radius: 5px;
-          font-size: 15px;
-          color: #fff;
-          display: block;
-          margin: 25px auto;
-          background-color: #288fcb;
-          font-weight: bold;
-          border: 0px;
-          cursor: pointer;
-        }
-      }
 
       .logo-parceiro {
         padding: 20px 20px;
@@ -107,5 +28,8 @@
       }
 
     }
+
+
   }
+
 }
