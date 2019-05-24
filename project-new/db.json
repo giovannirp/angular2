@@ -21,5 +21,15 @@
       "imgPath": "assets/img/img-box.png",
       "description": "1% de desconto através do hotsite da parceria. Não cumulativo com outras promoções."
     }
+  ],
+
+  "about": [
+    {
+      "id": "about",
+      "title": "loren ipsun",
+      "subTitle": "Lorem ipsum dolor sit amet",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem beatae porro dolorum sunt aut incidunt aspernatur rem facere a? Officia in maiores consequatur corrupti amet, recusandae quam excepturi molestiasi amet, recusandae quam excepturi molestiasi amet, recusandae quam excepturi molestiasi amet, recusandae quam excepturi molestias i amet, recusandae quam excepturi molestias i amet, recusandae quam excepturi molestias i amet, recusandae quam excepturi molestias eius.,."
+    }
   ]
+
 }

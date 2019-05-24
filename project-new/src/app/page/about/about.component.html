@@ -10,9 +10,10 @@
 
   <section class="content">
     <div class="ct">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam enim et excepturi, dicta quod quisquam. Libero mollitia eaque, in tempora sint corrupti natus eius? Eaque iusto dicta consectetur sit accusamus.
+      <div *ngFor="let about of abouts">
+        <app-about-sub [about]="about"></app-about-sub>
+      </div>
     </div>
-
 
     <app-footer></app-footer>
   </section>
