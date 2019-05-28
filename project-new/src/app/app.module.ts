@@ -18,6 +18,7 @@ import { CardService } from './shared/components/cards/card.service';
 import { HttpClientModule } from '@angular/common/http';
 import { AboutSubComponent } from './page/about/about-sub/about-sub.component';
 import { AboutService } from './page/about/about.service';
+import { ContactComponent } from './page/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AboutService } from './page/about/about.service';
     CarrocelComponent,
     AboutComponent,
     CardComponent,
-    AboutSubComponent
+    AboutSubComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
