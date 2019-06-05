@@ -19,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AboutSubComponent } from './page/about/about-sub/about-sub.component';
 import { AboutService } from './page/about/about.service';
 import { ContactComponent } from './page/contact/contact.component';
+import { CardDetailComponent } from './shared/components/card-detail/card-detail.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ContactComponent } from './page/contact/contact.component';
     AboutComponent,
     CardComponent,
     AboutSubComponent,
-    ContactComponent
+    ContactComponent,
+    CardDetailComponent
   ],
   imports: [
     BrowserModule,

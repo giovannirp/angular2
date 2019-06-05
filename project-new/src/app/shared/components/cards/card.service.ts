@@ -6,7 +6,9 @@ import { Observable, throwError } from 'rxjs';
 import { retry, catchError } from 'rxjs/operators';
 import { ErrorHandler } from '../../../app.error-handler';
 
-@Injectable()
+@Injectable({
+  providedIn: 'root',
+})
 export class CardService {
   /*
     private extractData(res: Response) {
@@ -25,6 +27,13 @@ export class CardService {
  */
   getCards(): Observable<any> {
     return this.http.get(MEAT_API + '/cards')
+    .pipe(
+      catchError(ErrorHandler.handlerError)
+    );
+  }
+
+  getCardId(id: string): Observable<any> {
+    return this.http.get(MEAT_API + `/cards/${id}`)
     .pipe(
       catchError(ErrorHandler.handlerError)
     );

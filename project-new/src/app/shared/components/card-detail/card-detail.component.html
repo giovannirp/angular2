@@ -1,0 +1,29 @@
+<div class="pg pg-detalhes">
+
+  <div class="containerHeader">
+    <app-header></app-header>
+  </div>
+
+  <section class="content containerLayout">
+    <div class="ct">
+      <div class="detalhes">
+        <h1>{{card?.name}}</h1>
+        <picture>
+          <img src="{{card.imgPath}}" alt="{{card?.name}}">
+        </picture>
+
+        <p>
+          {{card?.description}}
+        </p>
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <app-sidebar></app-sidebar>
+    </aside>
+
+    <div class="containerFooter">
+      <app-footer></app-footer>
+    </div>
+  </section>
+</div>

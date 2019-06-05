@@ -9,6 +9,6 @@
   <p>{{card.description}}
   </p>
 </div>
-<a href="#">
-  <button class="btn-resgatar" type="button">Ver mais</button>
+<a  [routerLink]="['/home', card.id]">
+  <button class="btn-resgatar" type="button" >Ver mais</button>
 </a>
