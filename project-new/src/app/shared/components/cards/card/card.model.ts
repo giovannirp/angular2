@@ -3,5 +3,7 @@ export interface Card {
   name: string;
   desconto: string;
   imgPath: string;
+  infoProduto: string;
+  mensagemProduto: string;
   description: string;
 }
