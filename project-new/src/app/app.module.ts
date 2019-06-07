@@ -20,6 +20,8 @@ import { AboutSubComponent } from './page/about/about-sub/about-sub.component';
 import { AboutService } from './services/about.service';
 import { ContactComponent } from './page/contact/contact.component';
 import { CardDetailComponent } from './shared/components/card-detail/card-detail.component';
+import { DetalheProdutoComponent } from './shared/components/card-detail/detalhe-produto/detalhe-produto.component';
+import { InformacaoProdutoComponent } from './shared/components/card-detail/informacao-produto/informacao-produto.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { CardDetailComponent } from './shared/components/card-detail/card-detail
     CardComponent,
     AboutSubComponent,
     ContactComponent,
-    CardDetailComponent
+    CardDetailComponent,
+    DetalheProdutoComponent,
+    InformacaoProdutoComponent
   ],
   imports: [
     BrowserModule,
