@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { MEAT_API } from 'src/app/app.api';
 import { catchError } from 'rxjs/operators';
-import { ErrorHandler } from '../../app.error-handler';
+import { ErrorHandler } from '../app.error-handler';
 
 
 

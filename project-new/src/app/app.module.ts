@@ -14,10 +14,10 @@ import { SidebarComponent } from './shared/components/sidebar/sidebar.component'
 import { CarrocelComponent } from './shared/components/carrocel/carrocel.component';
 import { AboutComponent } from './page/about/about.component';
 import { CardComponent } from './shared/components/cards/card/card.component';
-import { CardService } from './shared/components/cards/card.service';
+import { CardService } from './services/card.service';
 import { HttpClientModule } from '@angular/common/http';
 import { AboutSubComponent } from './page/about/about-sub/about-sub.component';
-import { AboutService } from './page/about/about.service';
+import { AboutService } from './services/about.service';
 import { ContactComponent } from './page/contact/contact.component';
 import { CardDetailComponent } from './shared/components/card-detail/card-detail.component';
 

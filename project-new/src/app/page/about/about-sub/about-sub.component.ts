@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { About } from './about.model';
+import { About } from '../../../models/about.model';
 
 @Component({
   selector: 'app-about-sub',

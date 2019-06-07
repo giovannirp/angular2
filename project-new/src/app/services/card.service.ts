@@ -1,10 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { MEAT_API } from '../../../app.api';
-import { Card } from './card/card.model';
+import { MEAT_API } from '../app.api';
+import { Card } from '../models/card.model';
 import { Observable, throwError } from 'rxjs';
 import { retry, catchError } from 'rxjs/operators';
-import { ErrorHandler } from '../../../app.error-handler';
+import { ErrorHandler } from '../app.error-handler';
 
 @Injectable({
   providedIn: 'root',
