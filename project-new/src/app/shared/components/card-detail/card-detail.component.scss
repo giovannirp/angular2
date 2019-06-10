@@ -1,4 +1,5 @@
 .pg-detalhes {
+
   .content {
     .detalhes {
       h1 {
@@ -42,9 +43,39 @@
             margin-top: 10px;
             font-weight: bold;
             color: #ca3737;
+            display: inline-block;
           }
         }
 
+      }
+
+      .links {
+        .linkCustom {
+          color: #6633b3;
+          text-decoration: underline;
+          cursor: pointer;
+          border-bottom: 3px solid #008bc9;
+          }
+
+        strong {
+          margin-bottom: 20px;
+          display: inline-block;
+          //border: 1px solid #cccccc;
+          padding: 10px;
+          cursor: pointer;
+
+          a {
+            color: #ca3737;
+            font-weight: bold;
+            font-size: 20px;
+            padding-right: 56px;
+            display: inline-block;
+
+            &:hover {
+
+            }
+          }
+        }
       }
     }
   }

@@ -13,6 +13,7 @@ const ROUTES: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'home/:id', component: CardDetailComponent,
     children: [
+      {path: '', redirectTo: 'detalheProd', pathMatch: 'full'},
       {path: 'detalheProd', component: DetalheProdutoComponent},
       {path: 'infoProd', component: InformacaoProdutoComponent}
     ]
