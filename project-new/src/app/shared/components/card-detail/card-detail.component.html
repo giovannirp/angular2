@@ -26,18 +26,27 @@
           {{card?.mensagemProduto}}
         </p>
 
+        <!--
         <div class="links">
-          <strong routerLinkActive="linkCustom" [routerLink]="['detalheProd']">
-            <a  >Detalhe do produto:</a>
+          <strong routerLinkActive="linkCustom">
+            <a>Detalhe do produto:</a>
           </strong>
-          <strong routerLinkActive="linkCustom" [routerLink]="['infoProd']">
-              <a  >Informações do Produto:</a>
-            </strong>
+          <strong routerLinkActive="linkCustom">
+            <a>Informações do Produto:</a>
+          </strong>
         </div>
+        -->
 
         <div class="row">
-          aquiiii
-          <router-outlet></router-outlet>
+          <div class="detalhesInfo">
+            <strong>Detalhe do produto:</strong>
+            <app-informacao-produto [card]="card"></app-informacao-produto>
+          </div>
+
+          <div class="detalhesInfo">
+            <strong>Informações do Produto:</strong>
+            <app-detalhe-produto [card]="card"></app-detalhe-produto>
+          </div>
         </div>
 
         <section class="depoimentos">

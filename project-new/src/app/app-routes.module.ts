@@ -11,13 +11,7 @@ import { InformacaoProdutoComponent } from './shared/components/card-detail/info
 const ROUTES: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
-  {path: 'home/:id', component: CardDetailComponent,
-    children: [
-      {path: '', redirectTo: 'detalheProd', pathMatch: 'full'},
-      {path: 'detalheProd', component: DetalheProdutoComponent},
-      {path: 'infoProd', component: InformacaoProdutoComponent}
-    ]
-  },
+  {path: 'home/:id', component: CardDetailComponent},
   {path: 'about', component: AboutComponent},
   {path: 'contact', component: ContactComponent}
 ];

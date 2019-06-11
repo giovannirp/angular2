@@ -55,7 +55,7 @@
           text-decoration: underline;
           cursor: pointer;
           border-bottom: 3px solid #008bc9;
-          }
+        }
 
         strong {
           margin-bottom: 20px;
@@ -71,9 +71,23 @@
             padding-right: 56px;
             display: inline-block;
 
-            &:hover {
+            &:hover {}
+          }
+        }
+      }
 
-            }
+      .row {
+        flex-direction: column;
+
+        .detalhesInfo {
+          margin-left: 20px;
+
+          strong {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: rebeccapurple;
           }
         }
       }

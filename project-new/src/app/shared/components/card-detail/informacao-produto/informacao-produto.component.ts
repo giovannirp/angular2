@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Card } from 'src/app/models/card.model';
-import { CardService } from 'src/app/services/card.service';
 
 @Component({
   selector: 'app-informacao-produto',
@@ -9,12 +8,11 @@ import { CardService } from 'src/app/services/card.service';
 })
 export class InformacaoProdutoComponent implements OnInit {
 
-  cards: Card[];
-
-  constructor(private cardService: CardService) { }
+  @Input() card: Card;
+  constructor() { }
 
   ngOnInit() {
-
+    /*setTimeout(() => this.card.mensagemProduto = 'Nova Mensagem', 3000);*/
   }
 
 }
