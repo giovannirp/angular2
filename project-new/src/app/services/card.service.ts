@@ -39,6 +39,13 @@ export class CardService {
     );
   }
 
+  getDepositions(): Observable<any> {
+    return this.http.get(MEAT_API + '/depositions')
+    .pipe(
+      catchError(ErrorHandler.handlerError)
+    );
+  }
+
 
 
 

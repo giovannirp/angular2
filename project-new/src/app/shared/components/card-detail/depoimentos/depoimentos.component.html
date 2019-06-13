@@ -1,0 +1,10 @@
+<article class="postDepoimento">
+  <h2>{{depo?.name}} </h2>
+  <strong>{{depo?.date | date: 'dd/MM/yyyy'}}</strong>
+  <p>{{depo?.comments}}</p>
+
+  <div class="rating">
+      <strong>Avaliação:</strong>
+    <span>{{depo?.rating}}</span>
+  </div>
+</article>

@@ -22,6 +22,7 @@ import { ContactComponent } from './page/contact/contact.component';
 import { CardDetailComponent } from './shared/components/card-detail/card-detail.component';
 import { DetalheProdutoComponent } from './shared/components/card-detail/detalhe-produto/detalhe-produto.component';
 import { InformacaoProdutoComponent } from './shared/components/card-detail/informacao-produto/informacao-produto.component';
+import { DepoimentosComponent } from './shared/components/card-detail/depoimentos/depoimentos.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { InformacaoProdutoComponent } from './shared/components/card-detail/info
     ContactComponent,
     CardDetailComponent,
     DetalheProdutoComponent,
-    InformacaoProdutoComponent
+    InformacaoProdutoComponent,
+    DepoimentosComponent
   ],
   imports: [
     BrowserModule,

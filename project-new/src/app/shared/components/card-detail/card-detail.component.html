@@ -9,33 +9,12 @@
       <div class="detalhes">
         <h1>{{card?.name}}</h1>
         <picture>
-          <img src="{{card.imgPathGreat}}" alt="{{card?.name}}">
+          <img src="{{card?.imgPathGreat}}" alt="{{card?.name}}">
         </picture>
 
         <p>
           {{card?.description}}
         </p>
-
-        <p>
-          <strong>Detalhe do produto: </strong>
-          {{card?.infoProduto}}
-        </p>
-
-        <p>
-          <strong>Informações do Produto: </strong>
-          {{card?.mensagemProduto}}
-        </p>
-
-        <!--
-        <div class="links">
-          <strong routerLinkActive="linkCustom">
-            <a>Detalhe do produto:</a>
-          </strong>
-          <strong routerLinkActive="linkCustom">
-            <a>Informações do Produto:</a>
-          </strong>
-        </div>
-        -->
 
         <div class="row">
           <div class="detalhesInfo">
@@ -51,19 +30,9 @@
 
         <section class="depoimentos">
           <h1>Depoimentos</h1>
-          <article class="postDepoimento">
-            <h2>Fernando </h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem harum totam voluptatem, neque amet odio
-              voluptates laborum, officia deserunt optio ullam porro! A, laudantium? Dicta velit minus aperiam quam
-              nobis!</p>
-          </article>
-
-          <article class="postDepoimento">
-            <h2>Cris </h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem harum totam voluptatem, neque amet odio
-              voluptates laborum, officia deserunt optio ullam porro! A, laudantium? Dicta velit minus aperiam quam
-              nobis!</p>
-          </article>
+          <div *ngFor="let depo of depoimento">
+            <app-depoimentos [depo]="depo"></app-depoimentos>
+          </div>
         </section>
 
       </div>

@@ -47,163 +47,141 @@
       "name": "Julia",
       "date": "2017-01-23T18:25:43",
       "rating": 4.5,
-      "comments": "Tudo muito bom, entrega no tempo certo",
-      "restaurantId": "bread-bakery"
+      "comments": "Tudo muito bom, entrega no tempo certo"
     },
     {
       "name": "Aline",
       "date": "2016-12-12T18:25:43",
       "rating": 3,
-      "comments": "NÃO recomendo. as musicas são ruins.",
-      "restaurantId": "bread-bakery"
+      "comments": "NÃO recomendo. as musicas são ruins."
     },
     {
       "name": "Renata",
       "date": "2016-12-12T18:25:43",
       "rating": 2,
-      "comments": "Não foi muito agradável, e eu e meu esposo no outro dia passamos super mal com as musicas. Pode até ter sido outra coisa, mas...",
-      "restaurantId": "bread-bakery"
+      "comments": "Não foi muito agradável, e eu e meu esposo no outro dia passamos super mal com as musicas. Pode até ter sido outra coisa, mas..."
     },
     {
       "name": "Renata",
       "date": "2016-12-12T18:25:43",
       "rating": 5,
-      "comments": "Nunca deixou na mão, comida sempre deliciosa.",
-      "restaurantId": "bread-bakery"
+      "comments": "Nunca deixou na mão, comida sempre deliciosa."
     },
     {
       "name": "Daniela",
       "date": "2017-01-23T18:25:43",
       "rating": 4,
-      "comments": "Sanduíche muito bom! Já pedi diversas vezes sempre bom!",
-      "restaurantId": "burger-house"
+      "comments": "Sanduíche muito bom! Já pedi diversas vezes sempre bom!"
     },
     {
       "name": "Laila",
       "date": "2017-02-02T18:25:43",
       "rating": 5,
-      "comments": "Muito bom. Vai ser difícil voltar ir para som livre ou UOL",
-      "restaurantId": "burger-house"
+      "comments": "Muito bom. Vai ser difícil voltar ir para som livre ou UOL"
     },
     {
       "name": "Suzana",
       "date": "2016-12-12T18:25:43",
       "rating": 3.5,
-      "comments": "Meu sanduíche chegou frio e todo desmontado =\\",
-      "restaurantId": "burger-house"
+      "comments": "Meu sanduíche chegou frio e todo desmontado =\\"
     },
     {
       "name": "Eric",
       "date": "2017-01-23T18:25:43",
       "rating": 4.5,
-      "comments": "Excelente opção! Recomendo!",
-      "restaurantId": "coffee-corner"
+      "comments": "Excelente opção! Recomendo!"
     },
     {
       "name": "Amanda",
       "date": "2017-02-02T18:25:43",
       "rating": 2.5,
-      "comments": "Demorou muito e o café veio gelado",
-      "restaurantId": "coffee-corner"
+      "comments": "Demorou muito e o café veio gelado"
     },
     {
       "name": "Carla",
       "date": "2016-12-12T18:25:43",
       "rating": 4.8,
-      "comments": "Tudo perfeito. Entrega, embalagem, comida. Resultado? Melhor custo beneficio",
-      "restaurantId": "coffee-corner"
+      "comments": "Tudo perfeito. Entrega, embalagem, comida. Resultado? Melhor custo beneficio"
     },
     {
       "name": "Rodrigo",
       "date": "2016-12-12T18:25:43",
       "rating": 4,
-      "comments": "Muito rápida a entrega, mas é caro.",
-      "restaurantId": "coffee-corner"
+      "comments": "Muito rápida a entrega, mas é caro."
     },
     {
       "name": "André",
       "date": "2016-12-12T18:25:43",
       "rating": 4.5,
-      "comments": "Excelente como sempre!",
-      "restaurantId": "coffee-corner"
+      "comments": "Excelente como sempre!"
     },
     {
       "name": "João",
       "date": "2017-01-23T18:25:43",
       "rating": 5,
-      "comments": "Excelente. Fiz o pedido com outro endereço e quando vi o erro liguei avisando. O motoqueiro cortou a cidade todinha e a comida ainda chegou quentinha (e deliciosa). Estou sempre pedindo e recomendando",
-      "restaurantId": "green-food"
+      "comments": "Excelente. Fiz o pedido com outro endereço e quando vi o erro liguei avisando. O motoqueiro cortou a cidade todinha e a comida ainda chegou quentinha (e deliciosa). Estou sempre pedindo e recomendando"
     },
     {
       "name": "Marcelo",
       "date": "2017-02-02T18:25:43",
       "rating": 4.5,
-      "comments": "Chegou muito rápido, antes mesmo da previsão",
-      "restaurantId": "green-food"
+      "comments": "Chegou muito rápido, antes mesmo da previsão"
     },
     {
       "name": "Fatinha",
       "date": "2017-01-23T18:25:43",
       "rating": 2,
-      "comments": "Ñ gostei dos sabores q pedi e achei o preço muito elevado",
-      "restaurantId": "ice-cream"
+      "comments": "Ñ gostei dos sabores q pedi e achei o preço muito elevado"
     },
     {
       "name": "Lucas",
       "date": "2017-02-02T18:25:43",
       "rating": 2.5,
-      "comments": "Esperar 1:45hr pra receber o pedido é INACEITÁVEL",
-      "restaurantId": "ice-cream"
+      "comments": "Esperar 1:45hr pra receber o pedido é INACEITÁVEL"
     },
     {
       "name": "Jacira",
       "date": "2017-02-01T18:25:43",
       "rating": 4.5,
-      "comments": "Veio OK!",
-      "restaurantId": "ice-cream"
+      "comments": "Veio OK!"
     },
     {
       "name": "Ana",
       "date": "2017-01-23T18:25:43",
       "rating": 5,
-      "comments": "Rápido e sempre uma delicia!! Ja pedi 3x e sempre veio rapido e tudo certinho.",
-      "restaurantId": "tasty-treats"
+      "comments": "Rápido e sempre uma delicia!! Ja pedi 3x e sempre veio rapido e tudo certinho."
     },
     {
       "name": "Larissa",
       "date": "2017-02-02T18:25:43",
       "rating": 2.5,
-      "comments": "A taxa de entrega poderia ser mais barata.",
-      "restaurantId": "tasty-treats"
+      "comments": "A taxa de entrega poderia ser mais barata."
     },
     {
       "name": "Jarbas",
       "date": "2016-12-15T18:25:43",
       "rating": 4.7,
-      "comments": "Excelente e chegou muito rápido!",
-      "restaurantId": "tasty-treats"
+      "comments": "Excelente e chegou muito rápido!"
     },
     {
       "name": "Rafaela",
       "date": "2017-01-12T18:25:43",
       "rating": 5,
-      "comments": "Chegou rápido e perfeito!",
-      "restaurantId": "tasty-treats"
+      "comments": "Chegou rápido e perfeito!"
     },
     {
       "name": "Julia",
       "date": "2016-12-12T18:25:43",
       "rating": 1.5,
-      "comments": "Sempre gostei muito dos pedidos que eu fiz, mas dessa vez foi péssimo e decepcionou muito. Demorou 30min a mais pra chegar do que o tempo máximo esperado.",
-      "restaurantId": "tasty-treats"
+      "comments": "Sempre gostei muito dos pedidos que eu fiz, mas dessa vez foi péssimo e decepcionou muito. Demorou 30min a mais pra chegar do que o tempo máximo esperado."
     },
     {
       "name": "Marília",
       "date": "2016-12-20T18:25:43",
       "rating": 4.5,
-      "comments": "Taxa de entrega bastante elevada e precisa colocar no app se a pessoa quer porção adicional de algo (calda, crocante etc)",
-      "restaurantId": "tasty-treats"
+      "comments": "Taxa de entrega bastante elevada e precisa colocar no app se a pessoa quer porção adicional de algo (calda, crocante etc)"
     }
-  ]
+  ],
+  "contact": []
 
 }

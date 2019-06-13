@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { CardService } from '../../../services/card.service';
 import { ActivatedRoute } from '@angular/router';
 import { Card } from '../../../models/card.model';
@@ -11,6 +11,8 @@ import { Card } from '../../../models/card.model';
 export class CardDetailComponent implements OnInit {
 
   card: Card;
+  @Input() depoimento: Card;
+
   constructor(private cardService: CardService,
               private route: ActivatedRoute) { }
 
@@ -20,6 +22,10 @@ export class CardDetailComponent implements OnInit {
 
     this.cardService.getCardId(id)
     .subscribe(card => this.card = card);
+
+    this.cardService.getDepositions()
+    .subscribe(depo => this.depoimento = depo);
+
   }
 
 }
