@@ -23,6 +23,10 @@ import { CardDetailComponent } from './shared/components/card-detail/card-detail
 import { DetalheProdutoComponent } from './shared/components/card-detail/detalhe-produto/detalhe-produto.component';
 import { InformacaoProdutoComponent } from './shared/components/card-detail/informacao-produto/informacao-produto.component';
 import { DepoimentosComponent } from './shared/components/card-detail/depoimentos/depoimentos.component';
+import { FaqComponent } from './page/faq/faq.component';
+import { FaqService } from './services/faq.service';
+import { ComoUsarComponent } from './page/faq/como-usar/como-usar.component';
+import { MaisDuvidasComponent } from './page/faq/mais-duvidas/mais-duvidas.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +44,10 @@ import { DepoimentosComponent } from './shared/components/card-detail/depoimento
     CardDetailComponent,
     DetalheProdutoComponent,
     InformacaoProdutoComponent,
-    DepoimentosComponent
+    DepoimentosComponent,
+    FaqComponent,
+    ComoUsarComponent,
+    MaisDuvidasComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +55,7 @@ import { DepoimentosComponent } from './shared/components/card-detail/depoimento
     HttpClientModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
-  providers: [CardService, AboutService],
+  providers: [CardService, AboutService, FaqService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

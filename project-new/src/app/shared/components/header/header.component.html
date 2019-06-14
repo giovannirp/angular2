@@ -1,25 +1,25 @@
 <header class="header">
-  <div class="ct">
-      <h1>
-        <a [routerLink]="['/home']">
-            <img src="assets/img/logo.png" />
-        </a>
-      </h1>
-      <div class="menu">
-          <ul>
-              <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                  <a [routerLink]="['/home']">Home</a>
-              </li>
-              <li routerLinkActive="active">
-                  <a [routerLink]="['/about']">Sobre</a>
-              </li>
-              <li>
-                  <a href="#">Faq</a>
-              </li>
-              <li routerLinkActive="active">
-                  <a [routerLink]="['/contact']">Contato</a>
-              </li>
-          </ul>
-      </div>
-  </div>
+    <div class="ct">
+        <h1>
+            <a [routerLink]="['/home']">
+                <img src="assets/img/logo.png" />
+            </a>
+        </h1>
+        <div class="menu">
+            <ul>
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/home']">Home</a>
+                </li>
+                <li routerLinkActive="active">
+                    <a [routerLink]="['/about']">Sobre</a>
+                </li>
+                <li routerLinkActive="active">
+                    <a [routerLink]="['/faq']">Faq</a>
+                </li>
+                <li routerLinkActive="active">
+                    <a [routerLink]="['/contact']">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </header>
