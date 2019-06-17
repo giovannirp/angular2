@@ -7,7 +7,9 @@ import { catchError } from 'rxjs/operators';
 import { ErrorHandler } from '../app.error-handler';
 
 
-@Injectable()
+@Injectable({
+  providedIn: 'root',
+})
 export class ContactService {
 
   constructor(private http: HttpClient) { }

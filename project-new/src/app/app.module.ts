@@ -27,6 +27,8 @@ import { FaqComponent } from './page/faq/faq.component';
 import { FaqService } from './services/faq.service';
 import { ComoUsarComponent } from './page/faq/como-usar/como-usar.component';
 import { MaisDuvidasComponent } from './page/faq/mais-duvidas/mais-duvidas.component';
+import { ContactService } from './services/contact.service';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -50,12 +52,14 @@ import { MaisDuvidasComponent } from './page/faq/mais-duvidas/mais-duvidas.compo
     MaisDuvidasComponent
   ],
   imports: [
+    FormsModule,
+    ReactiveFormsModule,
     BrowserModule,
     AppRoutesModule,
     HttpClientModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
-  providers: [CardService, AboutService, FaqService],
+  providers: [CardService, AboutService, FaqService, ContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
