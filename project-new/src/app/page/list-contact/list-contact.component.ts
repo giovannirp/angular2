@@ -11,8 +11,9 @@ import { Component, OnInit } from '@angular/core';
 export class ListContactComponent implements OnInit {
 
 
-  contact = [];
-  listaContact: Contact[];
+  contact = [] ;
+  listaContact: Contact[] = [];
+  const mensagem = '';
 
   constructor(private contactService: ContactService) { }
 

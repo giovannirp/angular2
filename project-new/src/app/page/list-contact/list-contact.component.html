@@ -23,7 +23,7 @@
               <th>Idade</th>
             </tr>
           </thead>
-          <tbody *ngIf="contact">
+          <tbody>
             <tr *ngFor="let contact of listaContact | filter:searchContact">
               <td>{{contact?.nome}}</td>
               <td>{{contact?.telefone}}</td>
