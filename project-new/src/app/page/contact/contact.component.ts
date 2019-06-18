@@ -20,7 +20,8 @@ export class ContactComponent implements OnInit {
       name: ['', [Validators.required]],
       phone: ['', [Validators.required]],
       email: ['', [Validators.required, Validators.email]],
-      idade: ['', [Validators.required]]
+      idade: ['', [Validators.required]],
+      mensagem: ['', [Validators.required]]
     });
   }
 
@@ -29,7 +30,8 @@ export class ContactComponent implements OnInit {
       nome: this.name.value,
       telefone: this.phone.value,
       email: this.email.value,
-      idade: this.idade.value
+      idade: this.idade.value,
+      mensagem: this.mensagem.value
     };
 
     this.contactService.addContact(contact)
@@ -43,6 +45,7 @@ export class ContactComponent implements OnInit {
   get phone(): AbstractControl { return this.formContact.get('phone'); }
   get email(): AbstractControl { return this.formContact.get('email'); }
   get idade(): AbstractControl { return this.formContact.get('idade'); }
+  get mensagem(): AbstractControl { return this.formContact.get('mensagem'); }
 
 
 }
