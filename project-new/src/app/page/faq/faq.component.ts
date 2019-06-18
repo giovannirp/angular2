@@ -16,7 +16,6 @@ export class FaqComponent implements OnInit {
   ngOnInit() {
     this.faqService.getFaq()
     .subscribe(faqs => this.faqs = faqs);
-    console.log('vindo é ', this.faqs);
   }
 
 }

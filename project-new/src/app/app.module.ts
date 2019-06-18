@@ -29,6 +29,10 @@ import { ComoUsarComponent } from './page/faq/como-usar/como-usar.component';
 import { MaisDuvidasComponent } from './page/faq/mais-duvidas/mais-duvidas.component';
 import { ContactService } from './services/contact.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ListContactComponent } from './page/list-contact/list-contact.component';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+
+
 
 @NgModule({
   declarations: [
@@ -49,14 +53,16 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     DepoimentosComponent,
     FaqComponent,
     ComoUsarComponent,
-    MaisDuvidasComponent
+    MaisDuvidasComponent,
+    ListContactComponent,
   ],
   imports: [
     FormsModule,
     ReactiveFormsModule,
     BrowserModule,
     AppRoutesModule,
-    HttpClientModule
+    HttpClientModule,
+    Ng2SearchPipeModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [CardService, AboutService, FaqService, ContactService],

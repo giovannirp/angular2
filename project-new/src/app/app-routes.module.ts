@@ -8,6 +8,7 @@ import { CardDetailComponent } from './shared/components/card-detail/card-detail
 import { FaqComponent } from './page/faq/faq.component';
 import { ComoUsarComponent } from './page/faq/como-usar/como-usar.component';
 import { MaisDuvidasComponent } from './page/faq/mais-duvidas/mais-duvidas.component';
+import { ListContactComponent } from './page/list-contact/list-contact.component';
 
 const ROUTES: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -22,8 +23,8 @@ const ROUTES: Routes = [
       { path: 'comoUsar', component: ComoUsarComponent },
       { path: 'maisDuvidas', component: MaisDuvidasComponent }
     ]
-
-  }
+  },
+  { path: 'listContact', component: ListContactComponent },
 ];
 
 @NgModule({

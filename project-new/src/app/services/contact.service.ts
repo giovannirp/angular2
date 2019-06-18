@@ -20,7 +20,22 @@ export class ContactService {
         catchError(ErrorHandler.handlerError)
       );
   }
+/*
 
+  getAbaout(): Observable<any> {
+    return this.http.get(MEAT_API + '/about')
+    .pipe(
+      catchError(ErrorHandler.handlerError)
+    );
+  }
+*/
+
+  getContact(): Observable<any> {
+    return this.http.get(MEAT_API + '/contact')
+    .pipe(
+      catchError(ErrorHandler.handlerError)
+    );
+  }
 
 
 }

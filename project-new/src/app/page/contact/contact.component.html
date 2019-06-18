@@ -6,6 +6,7 @@
   <section class="content containerLayout">
     <div class="ct">
       <div class="col-sm-12">
+        <h1><span class="glyphicon glyphicon-envelope"></span>Contato</h1>
         <form [formGroup]="formContact">
           <div class="form-group">
             <label for="email" class="text-info">Nome:</label>
@@ -18,9 +19,9 @@
           <div class="form-group">
             <label for="pwd" class="text-info">Email:</label>
             <input type="email" class="form-control" formControlName="email">
-            <span>
+            <!--<span>
               {{email.errors | json}}
-            </span>
+            </span>-->
           </div>
           <div class="form-group">
             <label for="pwd" class="text-info">Idade:</label>
@@ -38,18 +39,11 @@
 -->
     <div class="row">
       <div class="ct">
-        <div class="form-group">
-          <a href="#">ver todos os contatos</a>
+        <div class="linkContact">
+          <a [routerLink]="['/listContact']">ver todos os contatos</a>
         </div>
       </div>
     </div>
 
-    <aside class="sidebar">
-      <app-sidebar></app-sidebar>
-    </aside>
-
-    <div class="containerFooter">
-      <app-footer></app-footer>
-    </div>
   </section>
 </div>
