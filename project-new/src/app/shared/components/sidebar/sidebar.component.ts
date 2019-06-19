@@ -35,7 +35,6 @@ export class SidebarComponent implements OnInit {
     });
   }
 
-
   get nome(): AbstractControl { return this.formNews.get('nome'); }
   get email(): AbstractControl { return this.formNews.get('email'); }
 
