@@ -1,9 +1,46 @@
 .rootBanner {
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
   border: 1px solid #e2eae8;
-  height: 100px;
   margin-top: 20px;
   margin-bottom: 10px;
   width: 930px;
   margin: 0 auto;
   margin-top:20px;
+  margin-bottom: 20px;
+
+
+  .novidades {
+
+    .row {
+      padding: 20px;
+
+      h1 {
+        padding: 0 0 20px 20px;
+        color: #ca3737;
+        font-weight: bold;
+      }
+
+      form {
+        .form-group {
+          label {
+            color: #288fcb;
+            padding-bottom: 10px;
+          }
+        }
+
+        .buttons {
+
+
+          button {
+            //float: right;
+            margin-right: 15px;
+          }
+        }
+
+      }
+    }
+  }
 }

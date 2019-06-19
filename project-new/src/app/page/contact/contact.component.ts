@@ -35,10 +35,10 @@ export class ContactComponent implements OnInit {
     };
 
     this.contactService.addContact(contact)
-    .subscribe(c => {
-      this.contacts.push(contact);
-      this.formContact.reset();
-    });
+      .subscribe(c => {
+        this.contacts.push(contact);
+        this.formContact.reset();
+      });
   }
 
   get name(): AbstractControl { return this.formContact.get('name'); }

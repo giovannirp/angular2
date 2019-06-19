@@ -13,7 +13,6 @@ export class ListContactComponent implements OnInit {
 
   contact = [] ;
   listaContact: Contact[] = [];
-  const mensagem = '';
 
   constructor(private contactService: ContactService) { }
 

@@ -6,7 +6,7 @@ import { ROUTES } from './app.routes';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './page/home/home.component';
 import { RouterModule } from '@angular/router';
-import { AppRoutesModule } from './app-routes.module';
+import { AppRoutesModule } from './modules/app-routes.module';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { CardsComponent } from './shared/components/cards/cards.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
@@ -31,6 +31,7 @@ import { ContactService } from './services/contact.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ListContactComponent } from './page/list-contact/list-contact.component';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { NewsService } from './services/news.service';
 
 
 
@@ -65,7 +66,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     Ng2SearchPipeModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
-  providers: [CardService, AboutService, FaqService, ContactService],
+  providers: [CardService, AboutService, FaqService, ContactService, NewsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

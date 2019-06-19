@@ -1,3 +1,22 @@
 <div class="rootBanner">
-  <img src="https://placehold.it/932x102" alt="">
+  <!--<img src="https://placehold.it/932x102" alt="">-->
+  <div class="novidades">
+    <div class="row">
+      <h1>RECEBA NOVIDADES E LANÇAMENTOS </h1>
+      <form [formGroup]="formNews" class="col-sm-12">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" formControlName="nome" class="form-control" placeholder="Digite seu nome" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" formControlName="email" class="form-control" placeholder="Digite seu email" />
+        </div>
+        <div class="buttons">
+            <button type="reset" class="btn btn-warning">Reset</button>
+            <button class="btn btn-primary" (click)="sendNews()" [disabled]="!formNews.valid">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
