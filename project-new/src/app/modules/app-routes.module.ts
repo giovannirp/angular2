@@ -9,6 +9,7 @@ import { FaqComponent } from '../page/faq/faq.component';
 import { ComoUsarComponent } from '../page/faq/como-usar/como-usar.component';
 import { MaisDuvidasComponent } from '../page/faq/mais-duvidas/mais-duvidas.component';
 import { ListContactComponent } from '../page/list-contact/list-contact.component';
+import { ListEmailComponent } from '../page/list-email/list-email.component';
 
 const ROUTES: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -17,6 +18,7 @@ const ROUTES: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'listContact', component: ListContactComponent },
+  { path: 'listEmail', component: ListEmailComponent },
   {
     path: 'faq', component: FaqComponent,
     children: [

@@ -232,54 +232,19 @@
   ],
   "news": [
     {
-      "nome": "tete",
-      "email": "tetet",
+      "nome": "Gigi",
+      "email": "giovanni_ge@hotmail.com",
       "id": 1
     },
     {
-      "nome": "tete",
-      "email": "tetet@hotmail.com",
+      "nome": "Tatiane Joana",
+      "email": "tatianejoana@hotmail.com",
       "id": 2
     },
     {
-      "nome": "teste",
-      "email": "teste@hotmail.com",
+      "nome": "Victor Menezes",
+      "email": "vitinho@hotmail.com",
       "id": 3
-    },
-    {
-      "nome": "testandoo",
-      "email": "giovanni_ge@hotmail.com",
-      "id": 4
-    },
-    {
-      "nome": "testandoo",
-      "email": "giovanni_ge@hotmail.com",
-      "id": 5
-    },
-    {
-      "nome": "teste ",
-      "email": "teste@hotmail.com",
-      "id": 6
-    },
-    {
-      "nome": "tete",
-      "email": "giovan",
-      "id": 7
-    },
-    {
-      "nome": "tete",
-      "email": "teste@htomai.com",
-      "id": 8
-    },
-    {
-      "nome": "Lu",
-      "email": "luciano@hotmail.com",
-      "id": 9
-    },
-    {
-      "nome": "Helton Bolivia",
-      "email": "bolivia@hotmail.com",
-      "id": 10
     }
   ]
 }

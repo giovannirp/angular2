@@ -20,4 +20,11 @@ export class NewsService {
     );
   }
 
+  getEmail(): Observable<any>{
+    return this.http.get(MEAT_API + '/news')
+    .pipe(
+      catchError(ErrorHandler.handlerError)
+    );
+  }
+
 }

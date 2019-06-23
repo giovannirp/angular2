@@ -32,6 +32,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ListContactComponent } from './page/list-contact/list-contact.component';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { NewsService } from './services/news.service';
+import { ListEmailComponent } from './page/list-email/list-email.component';
 
 
 
@@ -56,6 +57,7 @@ import { NewsService } from './services/news.service';
     ComoUsarComponent,
     MaisDuvidasComponent,
     ListContactComponent,
+    ListEmailComponent,
   ],
   imports: [
     FormsModule,

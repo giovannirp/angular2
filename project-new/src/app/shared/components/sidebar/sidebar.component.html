@@ -13,9 +13,11 @@
           <input type="email" formControlName="email" class="form-control" placeholder="Digite seu email" />
         </div>
         <div class="buttons">
-            <button type="reset" class="btn btn-warning">Reset</button>
             <button class="btn btn-primary" (click)="sendNews()" [disabled]="!formNews.valid">Enviar</button>
-        </div>
+            <a [routerLink]="['/listEmail']">
+              Todos emails cadastrados
+            </a>
+          </div>
       </form>
     </div>
   </div>

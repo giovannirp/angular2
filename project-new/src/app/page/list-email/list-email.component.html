@@ -1,0 +1,35 @@
+<div class="pg-listEmail">
+  <div class="containerHeader">
+    <app-header></app-header>
+  </div>
+  <div class="content containerLayout">
+    <div class="container">
+      <div class="row flex-direction">
+        <div>
+          <h1>Lista de Email</h1>
+        </div>
+
+        <div class="form-group">
+          <input class="form-control" [(ngModel)]="searchEmail" type="text" name="search" autocomplete="off"
+            placeholder="Buscar todos os email">
+        </div>
+
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>nome</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let news of listaEmail | filter:searchEmail">
+              <td>{{news?.nome}}</td>
+              <td>{{news?.email}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+
+  </div>
