@@ -8,7 +8,7 @@
 
 ### Entrar no diretorio 
 
-`angular2//project-new/`
+`angular2/project-new/`
 
 ### Instalando as Dependências
 
