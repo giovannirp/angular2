@@ -29,6 +29,10 @@
           </tbody>
         </table>
 
+        <div class="row" *ngIf="(listaEmail | filter:searchEmail).length === 0">
+          <span class="text-danger">Nehum resultado encontrado</span>
+        </div>
+
       </div>
     </div>
 

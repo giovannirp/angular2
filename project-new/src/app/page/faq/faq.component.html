@@ -8,28 +8,29 @@
     <div class="ct">
       <section class="sectionFaq">
         <div *ngFor="let faq of faqs">
-            <h1>{{faq?.geral}}</h1>
-            <h2>{{faq?.duvidas}}</h2>
-            <p>{{faq?.description}}</p>
+          <h1>{{faq?.geral}}</h1>
+          <h2>{{faq?.duvidas}}</h2>
+          <p>{{faq?.description}}</p>
         </div>
         <section class="sectionLinks">
-            <div class="links">
-              <strong routerLinkActive="linkCustom" [routerLink]="['comoUsar']">
-                <a>Como usar:</a>
-              </strong>
-              <strong routerLinkActive="linkCustom" [routerLink]="['maisDuvidas']">
-                <a>Mais Duvidas:</a>
-              </strong>
-            </div>
-          </section>
+          <div class="links">
+            <strong routerLinkActive="linkCustom" [routerLink]="['comoUsar']">
+              <a>Como usar:</a>
+            </strong>
+            <strong routerLinkActive="linkCustom" [routerLink]="['maisDuvidas']">
+              <a>Mais Duvidas:</a>
+            </strong>
+          </div>
+        </section>
 
-          <section class="row">
-            <router-outlet></router-outlet>
-          </section>
-
-
+        <section class="row">
+          <router-outlet></router-outlet>
+        </section>
       </section>
     </div>
 
+    <aside class="sidebar">
+      <app-sidebar></app-sidebar>
+    </aside>
   </section>
 </div>
