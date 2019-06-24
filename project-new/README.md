@@ -1,27 +1,29 @@
-# ProjectNew
+# Meat - Angular Project New
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+## 1. Passos para começar
 
-## Development server
+### Clonando o Repositório
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+`git clone https://github.com/giovannirp/angular2.git`
 
-## Code scaffolding
+### Entrar no diretorio 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`angular2//project-new/`
 
-## Build
+### Instalando as Dependências
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+`npm install`
 
-## Running unit tests
+### Inicializando o Servidor
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`ng serve` ou `npm start`
 
-## Running end-to-end tests
+## 2. Iniciando o Backend
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Instalando o json-server
 
-## Further help
+`npm install -g json-server`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Iniciando o serviço (raiz da aplicação)
+
+`json-server db.json`
