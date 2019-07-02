@@ -1,4 +1,4 @@
-import { Details } from './../../../models/details.model';
+import { Apis } from './../../../models/details.model';
 import { DetailsService } from './../../../services/details.service';
 import { Component, OnInit } from '@angular/core';
 
@@ -9,13 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailsComponent implements OnInit {
 
-  detail: Details;
+  apis: Apis[];
 
   constructor(private detailService: DetailsService) { }
 
   ngOnInit() {
     this.detailService.getDails()
-    .subscribe(detail => this.detail = detail);
+    .subscribe(apis => this.apis = apis);
   }
 
 }
