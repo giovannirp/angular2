@@ -1,0 +1,26 @@
+{
+  "cards": [
+    {
+      "id": "shakespeare",
+      "name": "Shakespeare",
+      "area": "Shakespeare",
+      "desconto": "5% de desconto",
+      "imgPath": "assets/img/shakespeare.jpg",
+      "imgPathGreat": "assets/img/detalhes.png",
+      "infoProduto": "Este produto é vendido por uma loja parceira. O Submarino garante sua compra.",
+      "mensagemProduto": "O Compra Certa é um clube de compras com a curadoria de produtos e serviços certos para sua casa e bem-estar. Tudo isso em um programa exclusivo de benefícios e recompensas que valoriza a participação dos seus membros e oferece condições especiais para o seu bolso.",
+      "description": "William Shakespeare é, sem dúvida, um mito. Sua obra tem um caráter universal e eterno, subvertendo o tempo e atravessando gerações. Para reverenciar este mestre, a Nova Fronteira preparou um box especial que reúne suas obras mais famosas, contando com a organização da professora Liana de Camargo Leão, especialista e pesquisadora da obra de Shakespeare, e a tradução consagrada da ensaísta e crítica de teatro Barbara Heliodora. No primeiro volume estão contempladas as peças mais."
+    },
+    {
+      "id": "nathalia",
+      "area": "Financeiro",
+      "name": "Me Poupe!",
+      "desconto": "3% de desconto",
+      "imgPath": "assets/img/nathalia-arcuri.jpg",
+      "imgPathGreat": "assets/img/nathalia-arcuri.jpg",
+      "infoProduto": "Me Poupe! - 10 Passos Para Nunca Mais Faltar Dinheiro No Seu Bolso.",
+      "mensagemProduto": "O Compra Certa é um clube de compras com a curadoria de produtos e serviços certos para sua casa e bem-estar. Tudo isso em um programa exclusivo de benefícios e recompensas que valoriza a participação dos seus membros e oferece condições especiais para o seu bolso.",
+      "description": "Nathalia Arcuri é criadora do Me Poupe!, maior canal de finanças do mundo no YouTube. “Os fãs do canal Me Poupe! não vão se decepcionar. Nathalia Arcuri venceu o desafio de levar para o papel a linguagem que se tornou sua marca registrada, o que deve fidelizar multidões e reforçar o propósito de seu trabalho. Você tem em mãos um instrumento de transformação. Leia-o com sabedoria e coloque em prática o que encontrar aqui. Sua vida será outra, certamente mais rica, depois desta leitura.”"
+    }
+  ]
+}
