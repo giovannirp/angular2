@@ -7,9 +7,9 @@
       <div class="col p-4 d-flex flex-column position-static">
         <strong class="d-inline-block mb-2 text-success">{{card?.area}}</strong>
         <h3 class="mb-0">{{card?.name}}</h3>
-        <div class="mb-1 text-muted">{{card?.desconto}}</div>
+        <div class="mb-1 text-muted" [ngClass]="{colorLink: card.desconto === number}">{{card?.desconto}} de desconto</div>
         <p class="card-text mb-auto">{{card?.infoProduto}}</p>
-        <a href="#" class="stretched-link">Continue reading</a>
+        <a [routerLink]="['/home', card.id]" class="stretched-link">{{card?.link}}</a>
       </div>
       <div class="col-auto d-none d-lg-block">
         <!--<svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"

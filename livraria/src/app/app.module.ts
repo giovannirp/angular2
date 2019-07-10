@@ -15,6 +15,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LivrosComponent } from './pages/livros/livros.component';
 import { CardsComponent } from './shared/components/cards/cards.component';
+import { CardDetailComponent } from './shared/components/card-detail/card-detail.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CardsComponent } from './shared/components/cards/cards.component';
     FooterComponent,
     HomeComponent,
     LivrosComponent,
-    CardsComponent
+    CardsComponent,
+    CardDetailComponent
   ],
   imports: [
     BrowserModule,

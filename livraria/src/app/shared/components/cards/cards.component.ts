@@ -11,8 +11,7 @@ export class CardsComponent implements OnInit {
 
   cards: Cards[];
   constructor(private cardsService: CardsService) { }
-
-
+  number = '3%';
   ngOnInit() {
     this.cardsService.getCard()
     .subscribe(cards => this.cards = cards);

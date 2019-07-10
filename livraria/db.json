@@ -4,7 +4,8 @@
       "id": "shakespeare",
       "name": "Shakespeare",
       "area": "Shakespeare",
-      "desconto": "5% de desconto",
+      "link": "Saiba Mais",
+      "desconto": "5%",
       "imgPath": "assets/img/shakespeare.jpg",
       "imgPathGreat": "assets/img/detalhes.png",
       "infoProduto": "Este produto é vendido por uma loja parceira. O Submarino garante sua compra.",
@@ -14,6 +15,49 @@
     {
       "id": "nathalia",
       "area": "Financeiro",
+      "name": "Me Poupe!",
+      "link": "Confira",
+      "desconto": "3%",
+      "imgPath": "assets/img/nathalia-arcuri.jpg",
+      "imgPathGreat": "assets/img/nathalia-arcuri.jpg",
+      "infoProduto": "Me Poupe! - 10 Passos Para Nunca Mais Faltar Dinheiro No Seu Bolso.",
+      "mensagemProduto": "O Compra Certa é um clube de compras com a curadoria de produtos e serviços certos para sua casa e bem-estar. Tudo isso em um programa exclusivo de benefícios e recompensas que valoriza a participação dos seus membros e oferece condições especiais para o seu bolso.",
+      "description": "Nathalia Arcuri é criadora do Me Poupe!, maior canal de finanças do mundo no YouTube. “Os fãs do canal Me Poupe! não vão se decepcionar. Nathalia Arcuri venceu o desafio de levar para o papel a linguagem que se tornou sua marca registrada, o que deve fidelizar multidões e reforçar o propósito de seu trabalho. Você tem em mãos um instrumento de transformação. Leia-o com sabedoria e coloque em prática o que encontrar aqui. Sua vida será outra, certamente mais rica, depois desta leitura."
+    }
+  ],
+  "livros": [
+    {
+      "id": "shakespeare",
+      "name": "Shakespeare",
+      "desconto": "5% de desconto",
+      "imgPath": "assets/img/shakespeare.jpg",
+      "imgPathGreat": "assets/img/detalhes.png",
+      "infoProduto": "Este produto é vendido por uma loja parceira. O Submarino garante sua compra.",
+      "mensagemProduto": "O Compra Certa é um clube de compras com a curadoria de produtos e serviços certos para sua casa e bem-estar. Tudo isso em um programa exclusivo de benefícios e recompensas que valoriza a participação dos seus membros e oferece condições especiais para o seu bolso.",
+      "description": "William Shakespeare é, sem dúvida, um mito. Sua obra tem um caráter universal e eterno, subvertendo o tempo e atravessando gerações. Para reverenciar este mestre, a Nova Fronteira preparou um box especial que reúne suas obras mais famosas, contando com a organização da professora Liana de Camargo Leão, especialista e pesquisadora da obra de Shakespeare, e a tradução consagrada da ensaísta e crítica de teatro Barbara Heliodora. No primeiro volume estão contempladas as peças mais."
+    },
+    {
+      "id": "menina",
+      "name": " A Menina Que Roubava Livros ",
+      "desconto": "25% de desconto",
+      "imgPath": "assets/img/roubava.jpg",
+      "imgPathGreat": "assets/img/detalhes.png",
+      "infoProduto": "Este produto é vendido por uma loja parceira. O Submarino garante sua compra.",
+      "mensagemProduto": "Um dia todos irão conhece-la. Mas ter a sua história contada por ela é para poucos.",
+      "description": "Entre 1939 e 1943, Liesel Meminger encontrou a Morte três vezes. E saiu suficientemente viva das três ocasiões para que a própria, de tão impressionada, decidisse nos contar sua história, em  livro há mais de um ano na lista dos mais vendidos do Desde o início da vida de Liesel na rua Himmel, numa área pobre de Molching, cidade desenxabida próxima a Munique, ela precisou achar formas de se convencer do sentido da sua existência."
+    },
+    {
+      "id": "chaves",
+      "name": " Chaves A História Oficial Ilustrada",
+      "desconto": "30% de desconto",
+      "imgPath": "assets/img/roubava.jpg",
+      "imgPathGreat": "assets/img/detalhes.png",
+      "infoProduto": "Este produto é vendido por uma loja parceira. O Submarino garante sua compra.",
+      "mensagemProduto": "O leitor está diante de uma biografia que resume alguns dos episódios mais.",
+      "description": "Roberto Gómez Bolaños, o grande humorista que deu vida a Chaves e Chapolin Colorado, dois dos maiores sucessos da televisão, ganha uma homenagem em Chaves – a história oficial ilustrada. Criador e intérprete desses heróis que levaram o riso a milhares de pessoas ao longo de quatro gerações, Chaves é a celebração da trajetória de um artista exemplar. O leitor está diante de uma biografia que resume alguns dos episódios mais marcantes da vida e dos quase sessenta anos de carreira do escritor, roteirista, ator, diretor, dramaturgo, comediante e compositor mexicano. Um fenômeno que, acompanhado por um espetacular grupo de comediantes, superou a popularidade de outros grandes nomes da comédia, como Charles Chaplin. Chaves nas redes sociais: • A página “Chespirito y sus amigos” tem mais de 2,5 milhões de curtidas no Facebook; • Roberto Bolaños conta com 6,78 milhões de seguidores em sua conta no Twitter, mesmo 3 anos após a morte do artista; • O perfil @chespirito_rgb, conta oficial do Grupo Chespirito no Instagram, soma 889 mil seguidores; • Após o estrondoso sucesso do seriado original, produzido nos anos 1970 e reprisado durante décadas pelo SBT, a Televisa criou uma versão de Chaves em desenho animado, transmitido no Brasil desde 2013."
+    },
+    {
+      "id": "nathalia",
       "name": "Me Poupe!",
       "desconto": "3% de desconto",
       "imgPath": "assets/img/nathalia-arcuri.jpg",
