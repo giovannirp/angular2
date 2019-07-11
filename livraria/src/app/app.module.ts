@@ -1,3 +1,4 @@
+import { LivrosService } from './services/livros.service';
 import { CardsService } from './services/cards.service';
 import { AppRoutesModule } from './modules/app-routes/app-routes.module';
 import { BrowserModule } from '@angular/platform-browser';
@@ -7,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { HeaderComponent } from './shared/components/header/header.component';
@@ -30,6 +32,8 @@ import { CardDetailComponent } from './shared/components/card-detail/card-detail
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     HttpClientModule,
     BsDropdownModule.forRoot(),
     TooltipModule.forRoot(),
@@ -38,7 +42,7 @@ import { CardDetailComponent } from './shared/components/card-detail/card-detail
     AppRoutesModule
   ],
   exports: [BsDropdownModule, TooltipModule, ModalModule],
-  providers: [CardsService],
+  providers: [CardsService, LivrosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

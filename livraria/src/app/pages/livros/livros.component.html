@@ -1,3 +1,24 @@
-<p>
-  livros works!
-</p>
+<h3 class="text-danger mb20">Lista de livros</h3>
+
+<div class="row">
+  <div class="col-sm-12 mb20">
+      <input type="text" class="form-control" name="buscar" placeholder="Buscar Livros" />
+  </div>
+</div>
+<div class="card-deck row text-center">
+  <div class="card mb-4 shadow-sm" *ngFor="let livro of livros">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">{{livro?.id | uppercase}}</h4>
+    </div>
+    <div class="card-body">
+      <h1 class="card-title pricing-card-title"><img src="{{livro.imgPath}}" width="150" height="200" alt=""></h1>
+      <ul class="list-unstyled">
+        <li class="text-danger">{{livro.desconto}}</li>
+        <li class="text-success">{{livro?.name}}</li>
+        <li>{{livro?.infoProduto}}</li>
+      </ul>
+      <button type="button" class="btn btn-lg btn-block btn-outline-primary">Veja Mais</button>
+    </div>
+  </div>
+
+</div>
