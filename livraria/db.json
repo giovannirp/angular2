@@ -29,7 +29,9 @@
     {
       "id": "shakespeare",
       "name": "Shakespeare",
-      "desconto": "5% de desconto",
+      "desconto": "5%",
+      "status": "esgotado",
+      "autor": "Tiago Pacheco",
       "imgPath": "assets/img/shakespeare.jpg",
       "imgPathGreat": "assets/img/detalhes.png",
       "infoProduto": "Este produto é vendido por uma loja parceira. O Submarino garante sua compra.",
@@ -39,7 +41,9 @@
     {
       "id": "menina",
       "name": " A Menina Que Roubava Livros ",
-      "desconto": "25% de desconto",
+      "desconto": "25%",
+      "status": "ok",
+      "autor": "Douglas Duarte",
       "imgPath": "assets/img/menina.jpg",
       "imgPathGreat": "assets/img/menina.jpg",
       "infoProduto": "Este produto é vendido por uma loja parceira. O Submarino garante sua compra.",
@@ -49,7 +53,9 @@
     {
       "id": "chaves",
       "name": " Chaves A História Oficial Ilustrada",
-      "desconto": "30% de desconto",
+      "desconto": "30%",
+      "status": "ok",
+      "autor": "Nicolas",
       "imgPath": "assets/img/chaves.jpg",
       "imgPathGreat": "assets/img/chaves.jpg",
       "infoProduto": "Este produto é vendido por uma loja parceira. O Submarino garante sua compra.",
@@ -59,12 +65,26 @@
     {
       "id": "nathalia",
       "name": "Me Poupe!",
-      "desconto": "3% de desconto",
+      "status": "ok",
+      "desconto": "3%",
+      "autor": "Nathalia",
       "imgPath": "assets/img/nathalia-arcuri.jpg",
       "imgPathGreat": "assets/img/nathalia-arcuri.jpg",
       "infoProduto": "Me Poupe! - 10 Passos Para Nunca Mais Faltar Dinheiro No Seu Bolso.",
       "mensagemProduto": "O Compra Certa é um clube de compras com a curadoria de produtos e serviços certos para sua casa e bem-estar. Tudo isso em um programa exclusivo de benefícios e recompensas que valoriza a participação dos seus membros e oferece condições especiais para o seu bolso.",
       "description": "Nathalia Arcuri é criadora do Me Poupe!, maior canal de finanças do mundo no YouTube. “Os fãs do canal Me Poupe! não vão se decepcionar. Nathalia Arcuri venceu o desafio de levar para o papel a linguagem que se tornou sua marca registrada, o que deve fidelizar multidões e reforçar o propósito de seu trabalho. Você tem em mãos um instrumento de transformação. Leia-o com sabedoria e coloque em prática o que encontrar aqui. Sua vida será outra, certamente mais rica, depois desta leitura."
+    },
+    {
+      "id": "software",
+      "name": "Gestão de produtos de software",
+      "status": "ok",
+      "desconto": "3%",
+      "autor": "Joaquim Torres",
+      "imgPath": "assets/img/gestao.jpg",
+      "imgPathGreat": "assets/img/gestao.jpg",
+      "infoProduto": "Neste livro, Joaquim Torres responde essas perguntas e mostra como é o dia a dia do trabalho de um gestor de produtos.",
+      "mensagemProduto": "Como aumentar as chances de sucesso do seu software",
+      "description": "Cuidar do andamento de um projeto de software é uma tarefa que requer diversos conhecimentos. Saber lidar com pressão de clientes, anseios do time de desenvolvimento, necessidades da equipe de vendas. Como negociar prazos? O que deve ser desenvolvido primeiro no roadmap do meu produto? Como aumentar a retenção de usuários? Essas e várias outras questões perseguem o gestor de produtos no seu dia a dia."
     }
   ]
 }

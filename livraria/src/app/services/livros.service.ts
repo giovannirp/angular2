@@ -12,4 +12,8 @@ export class LivrosService {
   getLivros(): Observable<any> {
     return this.http.get(BOOK_API + '/livros');
   }
+
+  getLivrosDetails(id: string): Observable<any> {
+    return this.http.get(BOOK_API + `/livros/${id}`);
+  }
 }

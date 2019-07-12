@@ -2,7 +2,10 @@ import { LivrosService } from './services/livros.service';
 import { CardsService } from './services/cards.service';
 import { AppRoutesModule } from './modules/app-routes/app-routes.module';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +21,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LivrosComponent } from './pages/livros/livros.component';
 import { CardsComponent } from './shared/components/cards/cards.component';
 import { CardDetailComponent } from './shared/components/card-detail/card-detail.component';
+import { LivrosDetalhesComponent } from './pages/livros-detalhes/livros-detalhes.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,8 @@ import { CardDetailComponent } from './shared/components/card-detail/card-detail
     HomeComponent,
     LivrosComponent,
     CardsComponent,
-    CardDetailComponent
+    CardDetailComponent,
+    LivrosDetalhesComponent
   ],
   imports: [
     BrowserModule,
@@ -39,9 +44,11 @@ import { CardDetailComponent } from './shared/components/card-detail/card-detail
     TooltipModule.forRoot(),
     ModalModule.forRoot(),
     AppRoutingModule,
-    AppRoutesModule
+    AppRoutesModule,
+    Ng2SearchPipeModule
   ],
   exports: [BsDropdownModule, TooltipModule, ModalModule],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [CardsService, LivrosService],
   bootstrap: [AppComponent]
 })
