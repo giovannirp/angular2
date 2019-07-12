@@ -77,7 +77,7 @@
     {
       "id": "software",
       "name": "Gestão de produtos de software",
-      "status": "ok",
+      "status": "esgotado",
       "desconto": "3%",
       "autor": "Joaquim Torres",
       "imgPath": "assets/img/gestao.jpg",
