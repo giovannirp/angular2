@@ -5,14 +5,61 @@
 </div>
 
 <div class="row">
-  <div class="col-sm-6">
-    <img src="{{livros?.imgPath}}" width="400" alt="{{livros?.id}}">
+  <div class="col-sm-6 text-center">
+    <img src="{{livros?.imgPath}}" width="400" alt="{{livros?.id}}"><br />
   </div>
 
   <div class="col-sm-6 flex-column">
     <span>{{livros?.infoProduto}}</span><br />
-    <small class="text-success">{{livros?.autor}}</small><br />
-    <strong class="text-danger">{{livros?.mensagemProduto}}</strong><br />
+    <strong class="text-danger">{{livros?.desconto}} de desconto</strong><br />
+    <small class="text-success">Autor: {{livros?.autor}}</small>
+    <p class="text-danger">{{livros?.mensagemProduto}}</p>
     <p>{{livros?.description}}</p>
+    <button class="btn btn-success" data-toggle="modal" data-target="#reservaLivros"><strong>Rerservar </strong> Livro
+      {{livros?.id}}</button>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="reservaLivros">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title text-success">Reservar livros</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="col-sm-12">
+          <form [formGroup]="formReservas">
+            <div class="form-group">
+              <label class="text-info">Nome do livro:</label>
+              <input type="text" class="form-control" formControlName="nomelivro" disabled="disabled" value="{{livros?.name}}">
+            </div>
+
+            <div class="form-group">
+              <label class="text-info">Nome:</label>
+              <input type="text" class="form-control" formControlName="nome" placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-group">
+              <label class="text-info">Email:</label>
+              <input type="email" class="form-control" formControlName="email" placeholder="Digite seu Email">
+            </div>
+
+            <div class="form-group text-center">
+              <button class="btn btn-danger">
+                Reservar
+              </button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
   </div>
 </div>

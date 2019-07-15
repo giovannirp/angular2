@@ -30,7 +30,7 @@
       "id": "shakespeare",
       "name": "Shakespeare",
       "desconto": "5%",
-      "status": "esgotado",
+      "status": "ok",
       "autor": "Tiago Pacheco",
       "imgPath": "assets/img/shakespeare.jpg",
       "imgPathGreat": "assets/img/detalhes.png",
@@ -86,5 +86,6 @@
       "mensagemProduto": "Como aumentar as chances de sucesso do seu software",
       "description": "Cuidar do andamento de um projeto de software é uma tarefa que requer diversos conhecimentos. Saber lidar com pressão de clientes, anseios do time de desenvolvimento, necessidades da equipe de vendas. Como negociar prazos? O que deve ser desenvolvido primeiro no roadmap do meu produto? Como aumentar a retenção de usuários? Essas e várias outras questões perseguem o gestor de produtos no seu dia a dia."
     }
-  ]
+  ],
+  "reservas": []
 }
