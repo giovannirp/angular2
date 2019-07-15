@@ -2,7 +2,7 @@ import { ActivatedRoute } from '@angular/router';
 import { LivrosService } from './../../services/livros.service';
 import { Livros } from './../../model/livros.model';
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators, AbstractControl } from '@angular/forms';
 import { RerservasService } from 'src/app/services/reservas.service';
 import { Reservas } from 'src/app/model/reserva.model';
 
@@ -37,11 +37,15 @@ export class LivrosDetalhesComponent implements OnInit {
 
   sendForm() {
      const reservas: Reservas = {
-       id: this.id.value,
        nome: this.nome.value,
        nomelivro: this.nomelivro.value,
        email: this.email.value
      };
   }
+
+
+  get nome(): AbstractControl { return this.formReservas.get('nome'); }
+  get nomelivro(): AbstractControl { return this.formReservas.get('nomelivro'); }
+  get email(): AbstractControl { return this.formReservas.get('email'); }
 
 }
