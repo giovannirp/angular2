@@ -1,5 +1,5 @@
 export interface Reservas {
-  id: string;
+  id?: string;
   nome: string;
   nomelivro: string;
   email: string;

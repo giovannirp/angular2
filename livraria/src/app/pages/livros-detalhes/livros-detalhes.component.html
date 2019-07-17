@@ -35,9 +35,9 @@
       <div class="modal-body">
         <div class="col-sm-12">
           <form [formGroup]="formReservas">
-            <div class="form-group">
+           <div class="form-group">
               <label class="text-info">Nome do livro:</label>
-              <input type="text" class="form-control" formControlName="nomelivro" disabled="disabled" value="{{livros?.name}}">
+              <input type="text" class="form-control" formControlName="nomelivro" value="{{livros?.name}}">
             </div>
 
             <div class="form-group">
@@ -51,7 +51,10 @@
             </div>
 
             <div class="form-group text-center">
-              <button class="btn btn-danger">
+              <button
+                  class="btn btn-danger"
+                  (click)="sendForm()"
+                  [disabled]="!formReservas.valid">
                 Reservar
               </button>
             </div>

@@ -9,7 +9,7 @@ import { Reservas } from '../model/reserva.model';
 export class RerservasService {
   constructor(private http: HttpClient) {}
 
-  addReservas(reservas: Reservas): Observable<any> {
-    return this.http.post<Reservas>(BOOK_API + '/reservas', reservas);
+  addReservas(reserva: Reservas): Observable<any> {
+    return this.http.post<Reservas>(BOOK_API + '/reservas', reserva);
   }
 }

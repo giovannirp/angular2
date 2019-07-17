@@ -3,8 +3,8 @@ import { LivrosService } from './../../services/livros.service';
 import { Livros } from './../../model/livros.model';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, AbstractControl } from '@angular/forms';
-import { RerservasService } from 'src/app/services/reservas.service';
 import { Reservas } from 'src/app/model/reserva.model';
+import { RerservasService } from 'src/app/services/reservas.service';
 
 @Component({
   selector: 'app-livros-detalhes',
@@ -14,8 +14,8 @@ import { Reservas } from 'src/app/model/reserva.model';
 export class LivrosDetalhesComponent implements OnInit {
 
   livros: Livros;
-  reservas: Reservas;
   formReservas: FormGroup;
+  reservaslivros: Reservas[] = [];
 
   constructor(private livrosService: LivrosService,
               private reservasLivros: RerservasService,
@@ -26,7 +26,7 @@ export class LivrosDetalhesComponent implements OnInit {
     const id = String(this.route.snapshot.paramMap.get('id'));
 
     this.formReservas = this.fb.group({
-      name: ['', [Validators.required]],
+      nome: ['', [Validators.required]],
       nomelivro: ['', [Validators.required]],
       email: ['', [Validators.required, Validators.email]]
     });
@@ -36,16 +36,22 @@ export class LivrosDetalhesComponent implements OnInit {
   }
 
   sendForm() {
-     const reservas: Reservas = {
-       nome: this.nome.value,
-       nomelivro: this.nomelivro.value,
-       email: this.email.value
-     };
-  }
+     const reserva: Reservas = {
+      nome: this.nome.value,
+      nomelivro: this.nomelivro.value,
+      email: this.email.value
+    };
 
+     this.reservasLivros.addReservas(reserva)
+     .subscribe(c => {
+       this.reservaslivros.push(reserva);
+       this.formReservas.reset();
+     });
+  }
 
   get nome(): AbstractControl { return this.formReservas.get('nome'); }
   get nomelivro(): AbstractControl { return this.formReservas.get('nomelivro'); }
   get email(): AbstractControl { return this.formReservas.get('email'); }
+
 
 }

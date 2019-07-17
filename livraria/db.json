@@ -87,5 +87,53 @@
       "description": "Cuidar do andamento de um projeto de software é uma tarefa que requer diversos conhecimentos. Saber lidar com pressão de clientes, anseios do time de desenvolvimento, necessidades da equipe de vendas. Como negociar prazos? O que deve ser desenvolvido primeiro no roadmap do meu produto? Como aumentar a retenção de usuários? Essas e várias outras questões perseguem o gestor de produtos no seu dia a dia."
     }
   ],
-  "reservas": []
+  "reservas": [
+    {
+      "nome": "teste",
+      "email": "teste",
+      "id": 1
+    },
+    {
+      "nome": "ye",
+      "nomelivro": "",
+      "email": "carloshoribeiro@gmail.com",
+      "id": 2
+    },
+    {
+      "nome": "teste",
+      "nomelivro": "Shakespeare teste",
+      "email": "teste@hotmai",
+      "id": 3
+    },
+    {
+      "nome": "yrdyr",
+      "nomelivro": "",
+      "email": "yr|2hhh@h",
+      "id": 4
+    },
+    {
+      "nome": "t",
+      "nomelivro": "",
+      "email": "t",
+      "id": 5
+    },
+    {
+      "nome": "te",
+      "nomelivro": "",
+      "email": "te",
+      "id": 6
+    },
+    {
+      "nome": "",
+      "nomelivro": "",
+      "email": "",
+      "id": 7
+    },
+    {
+      "nome": "Gigi",
+      "nomelivro": "Me Poupe!",
+      "email": "giovanni_ge@hotmail",
+      "id": 8
+    }
+  ]
 }
