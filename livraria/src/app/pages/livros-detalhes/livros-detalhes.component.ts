@@ -13,7 +13,7 @@ import { RerservasService } from 'src/app/services/reservas.service';
 })
 export class LivrosDetalhesComponent implements OnInit {
 
-  livros: Livros;
+  livro: Livros;
   formReservas: FormGroup;
   reservaslivros: Reservas[] = [];
 
@@ -32,7 +32,11 @@ export class LivrosDetalhesComponent implements OnInit {
     });
 
     this.livrosService.getLivrosDetails(id)
-    .subscribe(livros => this.livros = livros);
+    .subscribe(livro => {
+      this.livro = livro;
+      /* setValue */
+      this.nomelivro.setValue(livro.name);
+    });
   }
 
   sendForm() {

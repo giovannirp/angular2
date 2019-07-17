@@ -1,22 +1,22 @@
 <div class="row">
   <div class="col-sm-12 mb20">
-    <h3>{{livros?.name}}</h3>
+    <h3>{{livro?.name}}</h3>
   </div>
 </div>
 
 <div class="row">
   <div class="col-sm-6 text-center">
-    <img src="{{livros?.imgPath}}" width="400" alt="{{livros?.id}}"><br />
+    <img src="{{livro?.imgPath}}" width="400" alt="{{livro?.id}}"><br />
   </div>
 
   <div class="col-sm-6 flex-column">
-    <span>{{livros?.infoProduto}}</span><br />
-    <strong class="text-danger">{{livros?.desconto}} de desconto</strong><br />
+    <span>{{livro?.infoProduto}}</span><br />
+    <strong class="text-danger">{{livro?.desconto}} de desconto</strong><br />
     <small class="text-success">Autor: {{livros?.autor}}</small>
-    <p class="text-danger">{{livros?.mensagemProduto}}</p>
-    <p>{{livros?.description}}</p>
+    <p class="text-danger">{{livro?.mensagemProduto}}</p>
+    <p>{{livro?.description}}</p>
     <button class="btn btn-success" data-toggle="modal" data-target="#reservaLivros"><strong>Rerservar </strong> Livro
-      {{livros?.id}}</button>
+      {{livro?.id}}</button>
   </div>
 </div>
 
@@ -37,7 +37,7 @@
           <form [formGroup]="formReservas">
            <div class="form-group">
               <label class="text-info">Nome do livro:</label>
-              <input type="text" class="form-control" formControlName="nomelivro" value="{{livros?.name}}">
+              <input type="text" class="form-control" formControlName="nomelivro">
             </div>
 
             <div class="form-group">
