@@ -85,61 +85,122 @@
       "infoProduto": "Neste livro, Joaquim Torres responde essas perguntas e mostra como é o dia a dia do trabalho de um gestor de produtos.",
       "mensagemProduto": "Como aumentar as chances de sucesso do seu software",
       "description": "Cuidar do andamento de um projeto de software é uma tarefa que requer diversos conhecimentos. Saber lidar com pressão de clientes, anseios do time de desenvolvimento, necessidades da equipe de vendas. Como negociar prazos? O que deve ser desenvolvido primeiro no roadmap do meu produto? Como aumentar a retenção de usuários? Essas e várias outras questões perseguem o gestor de produtos no seu dia a dia."
+    },
+    {
+      "id": "asp",
+      "name": "ASP Clássico - Programando na Web",
+      "status": "ok",
+      "desconto": "83%",
+      "autor": "Joaquim Torres",
+      "imgPath": "assets/img/asp.jpg",
+      "imgPathGreat": "assets/img/asp.jpg",
+      "infoProduto": "A linguagem ASP – Active Server Pager é uma das mais utilizadas no mundo da Programação WEB por que é o código nativo do Servidores e Provedores de Hospedagem com IIS.",
+      "mensagemProduto": "O que estou considerando ao ASP é que seja conhecido de forma simples e, ao mesmo tempo, profunda, não superficial, ou pior, prolíxa.",
+      "description": "A linguagem ASP – Active Server Pager é uma das mais utilizadas no mundo da Programação WEB por que é o código nativo do Servidores e Provedores de Hospedagem com IIS – Information Internet Server que funciona sob sua infraestrutura de software Sistema Operacional Microsoft."
+    },
+    {
+      "id": "angular",
+      "name": "Beginning Angular with Typescript",
+      "status": "ok",
+      "desconto": "60%",
+      "autor": "Greg Lim",
+      "imgPath": "assets/img/angular.jpg",
+      "imgPathGreat": "assets/img/angular.jpg",
+      "infoProduto": "This book is for developers with basic familiarity with HTML, CSS, Javascript and object-oriented programming. No TypeScript or AngularJS experience needed.",
+      "mensagemProduto": "O  apps for any platform be it web, mobile web.",
+      "description": "Angular is one of the leading frameworks to develop apps across all platforms. Reuse your code and build fast and high performing apps for any platform be it web, mobile web, native mobile and native desktop. You use small manageable components to build a large powerful app. No more wasting time hunting for DOM nodes."
+    },
+    {
+      "id": "mean",
+      "name": "Full stack JavaScript",
+      "status": "ok",
+      "desconto": "1%",
+      "autor": "Greg Lim",
+      "imgPath": "assets/img/mean.jpg",
+      "imgPathGreat": "assets/img/mean.jpg",
+      "infoProduto": "Neste livro completíssimo, Flávio Almeida vai ensinar a desenvolver com essa poderosa stack, passando pelos problemas encontrados no dia a dia, destrinchando cada um dos seus elementos fundamentais e indo até o deploy e o teste da aplicação. É um livro que todo desenvolvedor web precisa ler.",
+      "mensagemProduto": "MongoDB, Express, Angular e Node.js",
+      "description": "Já pensou em desenvolver aplicações web ricas com recursos complexos, extremamente performáticos e robustos? É isso que você conseguirá fazer com a stack MEAN Unindo várias das principais tecnologias do mercado, como o MongoDB, Express, Angular e Node.js em cima da linguagem JavaScript, é possível criar aplicações em um curto espaço de tempo em uma."
+    },
+    {
+      "id": "nutricao",
+      "name": "Nutrição Comportamental",
+      "status": "ok",
+      "desconto": "45%",
+      "autor": "Fernanda Lima",
+      "imgPath": "assets/img/nutri.jpg",
+      "imgPathGreat": "assets/img/nutri.jpg",
+      "infoProduto": "Este livro apresenta e discute a nutrição com um novo foco e premissas, bem como as diferentes ferramentas e estratégias que podem ser usadas para trabalhar a mudança de comportamento. Inédito no cenário brasileiro, é obra indispensável para nutricionistas, estudantes de Nutrição e profissionais das áreas de psicologia e de alimentos que tenham interesse nessa nova forma de pensar sobre comida.",
+      "mensagemProduto": "Aconselhamento nutricional.",
+      "description": "Embora os temas nutrição e alimentação estejam cada vez mais em pauta, persiste uma visão restrita e dicotômica do “saudável e não saudável”, dos alimentos “bons ou ruins”, na qual o prazer em comer é muitas vezes associado à culpa. Esse contexto não promove a mudança de comportamento e não torna as pessoas mais saudáveis (como pode ser comprovado pelo aumento dos índices de doenças crônicas, transtornos alimentares e obesidade)."
     }
   ],
   "reservas": [
     {
-      "nome": "teste",
-      "email": "teste",
+      "nome": "Inara",
+      "nomelivro": "Beginning Angular with Typescript",
+      "email": "inara@hotmail.com",
       "id": 1
     },
     {
-      "nome": "ye",
-      "nomelivro": "",
-      "email": "carloshoribeiro@gmail.com",
+      "nome": "Alan",
+      "nomelivro": "Beginning Angular with Typescript",
+      "email": "alan@hotmail.com",
       "id": 2
     },
     {
-      "nome": "teste",
-      "nomelivro": "Shakespeare teste",
-      "email": "teste@hotmai",
+      "nome": "Abner",
+      "nomelivro": "Beginning Angular with Typescript",
+      "email": "abner@hotmail.com",
       "id": 3
     },
     {
-      "nome": "yrdyr",
-      "nomelivro": "",
-      "email": "yr|2hhh@h",
+      "nome": "Luazito",
+      "nomelivro": " Chaves A História Oficial Ilustrada",
+      "email": "luazito@hotmail.com",
       "id": 4
     },
     {
-      "nome": "t",
-      "nomelivro": "",
-      "email": "t",
+      "nome": "Luciano",
+      "nomelivro": " Chaves A História Oficial Ilustrada",
+      "email": "lu@hot",
       "id": 5
     },
     {
-      "nome": "te",
-      "nomelivro": "",
-      "email": "te",
+      "nome": "gigi",
+      "nomelivro": "Me Poupe!",
+      "email": "gig@hotmail.com",
       "id": 6
     },
     {
-      "nome": "",
-      "nomelivro": "",
-      "email": "",
+      "nome": "Hiro",
+      "nomelivro": "Full stack JavaScript",
+      "email": "hiro@hotmail.com",
       "id": 7
     },
     {
-      "nome": "Gigi",
-      "nomelivro": "Me Poupe!",
-      "email": "giovanni_ge@hotmail",
+      "nome": "teste movo",
+      "nomelivro": "ASP Clássico - Programando na Web",
+      "email": "teste@hotmail.com",
       "id": 8
     },
     {
-      "nome": "princi",
-      "nomelivro": "Me Poupe!",
-      "email": "princi@homtamil.com",
+      "nome": "shakerper",
+      "nomelivro": "Shakespeare",
+      "email": "sha@ht",
       "id": 9
+    },
+    {
+      "nome": "shak",
+      "nomelivro": "Shakespeare",
+      "email": "shak@hot",
+      "id": 10
+    },
+    {
+      "nome": "Dudi",
+      "nomelivro": "Shakespeare",
+      "email": "dudi@hotmail.com",
+      "id": 11
     }
   ]
 }

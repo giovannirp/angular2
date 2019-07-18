@@ -1,3 +1,14 @@
+<div class="row" *ngIf="livro.desconto > '40%'">
+  <div class="col-sm-12">
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <strong>Urgente!</strong> Oferta com desconto de <strong class="text-success">{{livro?.desconto}}</strong>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  </div>
+</div>
+
 <div class="row">
   <div class="col-sm-12 mb20">
     <h3>{{livro?.name}}</h3>
@@ -15,8 +26,9 @@
     <small class="text-success">Autor: {{livros?.autor}}</small>
     <p class="text-danger">{{livro?.mensagemProduto}}</p>
     <p>{{livro?.description}}</p>
-    <button class="btn btn-success" data-toggle="modal" data-target="#reservaLivros"><strong>Rerservar </strong> Livro
-      {{livro?.id}}</button>
+    <button class="btn btn-success" data-toggle="modal" data-target="#reservaLivros">
+      <strong>Gostei do </strong> Livro
+      {{livro?.id | uppercase}}</button>
   </div>
 </div>
 
@@ -27,7 +39,7 @@
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title text-success">Reservar livros</h4>
+        <h4 class="modal-title text-success">Interessados nos livros</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
@@ -35,9 +47,9 @@
       <div class="modal-body">
         <div class="col-sm-12">
           <form [formGroup]="formReservas">
-           <div class="form-group">
+            <div class="form-group">
               <label class="text-info">Nome do livro:</label>
-              <input type="text" class="form-control" formControlName="nomelivro">
+              <input type="text" class="form-control" formControlName="nomelivro" placeholder="Digite o nome do livro">
             </div>
 
             <div class="form-group">
@@ -51,15 +63,39 @@
             </div>
 
             <div class="form-group text-center">
-              <button
-                  class="btn btn-danger"
-                  (click)="sendForm()"
-                  [disabled]="!formReservas.valid">
+              <button class="btn btn-danger" (click)="sendForm()" [disabled]="!formReservas.valid">
                 Reservar
               </button>
             </div>
 
           </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- The Modal -->
+<div class="modal" id="mensagemCadastro">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title text-success">Parabéns</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="col-sm-12">
+          <p class="text-danger">
+            <strong>
+              Cadastro realizado com sucesso!
+            </strong>
+          </p>
         </div>
       </div>
 
