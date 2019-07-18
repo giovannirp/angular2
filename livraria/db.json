@@ -29,7 +29,7 @@
     {
       "id": "shakespeare",
       "name": "Shakespeare",
-      "desconto": "5%",
+      "desconto": "15%",
       "status": "ok",
       "autor": "Tiago Pacheco",
       "imgPath": "assets/img/shakespeare.jpg",
@@ -53,7 +53,7 @@
     {
       "id": "chaves",
       "name": " Chaves A História Oficial Ilustrada",
-      "desconto": "30%",
+      "desconto": "6%",
       "status": "ok",
       "autor": "Nicolas",
       "imgPath": "assets/img/chaves.jpg",
@@ -201,6 +201,12 @@
       "nomelivro": "Shakespeare",
       "email": "dudi@hotmail.com",
       "id": 11
+    },
+    {
+      "nome": "gigi2",
+      "nomelivro": "Nutrição Comportamental",
+      "email": "gigi@hotmail.com",
+      "id": 12
     }
   ]
 }
