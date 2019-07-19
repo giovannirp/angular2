@@ -1,3 +1,4 @@
+import { ReservasComponent } from './../../pages/reservas/reservas.component';
 import { LivrosDetailsComponent } from './../../pages/livros/livros-details/livros-details.component';
 import { LivrosComponent } from './../../pages/livros/livros.component';
 import { HomeComponent } from './../../pages/home/home.component';
@@ -12,7 +13,8 @@ const ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
   {path: 'home/:id', component: CardDetailComponent },
   {path: 'livros', component: LivrosComponent },
-  {path: 'livros/:id', component: LivrosDetalhesComponent }
+  {path: 'livros/:id', component: LivrosDetalhesComponent },
+  {path: 'reservas', component: ReservasComponent}
 ];
 
 @NgModule({

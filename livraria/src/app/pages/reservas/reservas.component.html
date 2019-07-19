@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo suscipit,
+        hic alias eius soluta quis molestiae enim reprehenderit harum aliquid nihil neque consequatur, libero, facere nisi sint mollitia maiores asperiores.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Nome do Livro</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let reserva of listaReservas">
+                <td>{{reserva.nome}}</td>
+                <td class="text-success">{{reserva.nomelivro}}</td>
+                <td>{{reserva.email}}</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+  </div>
+</div>

@@ -20,6 +20,7 @@ import { LivrosComponent } from './pages/livros/livros.component';
 import { CardsComponent } from './shared/components/cards/cards.component';
 import { CardDetailComponent } from './shared/components/card-detail/card-detail.component';
 import { LivrosDetalhesComponent } from './pages/livros-detalhes/livros-detalhes.component';
+import { ReservasComponent } from './pages/reservas/reservas.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { LivrosDetalhesComponent } from './pages/livros-detalhes/livros-detalhes
     LivrosComponent,
     CardsComponent,
     CardDetailComponent,
-    LivrosDetalhesComponent
+    LivrosDetalhesComponent,
+    ReservasComponent
   ],
   imports: [
     BrowserModule,

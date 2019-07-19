@@ -6,7 +6,6 @@ import { FormBuilder, FormGroup, Validators, AbstractControl } from '@angular/fo
 import { Reservas } from 'src/app/model/reserva.model';
 import { RerservasService } from 'src/app/services/reservas.service';
 
-
 declare var $: any;
 
 @Component({

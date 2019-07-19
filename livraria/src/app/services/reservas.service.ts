@@ -18,4 +18,11 @@ export class RerservasService {
       catchError(ErrorHandler.handlerError)
     );
   }
+
+  getReservas(): Observable<any> {
+    return this.http.get(BOOK_API + '/reservas')
+    .pipe(
+      catchError(ErrorHandler.handlerError)
+    );
+  }
 }
