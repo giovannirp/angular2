@@ -20,8 +20,9 @@
         <h1 class="card-title pricing-card-title"><img src="{{livro.imgPath}}" width="150" height="200" alt=""></h1>
         <ul class="list-unstyled">
           <li class="text-danger">{{livro.desconto}} de desconto</li>
-          <li class="text-success">{{livro?.name}}</li>
-          <li>{{livro?.infoProduto}}</li>
+          <li class="text-info"><strong [ngClass]="{colorCategoria: livro.categoria === 'TI' || livro.categoria === 'Progamação'}">{{livro?.categoria}}</strong></li>
+          <li class="text-success textTitle">{{livro?.name}}</li>
+          <li class="textInfoProduto">{{livro?.infoProduto}}</li>
         </ul>
         <button [routerLink]="['/livros', livro.id]" [disabled]="livro.status === status " class="btn btn-lg btn-block btn-outline-primary">Veja Mais</button>
       </div>

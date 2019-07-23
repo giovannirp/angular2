@@ -2,3 +2,16 @@
   opacity: 0.5;
   background: #eceaea;
 }
+
+.textInfoProduto {
+  height: 150px;
+  overflow: hidden;
+}
+.colorCategoria {
+  color: orange;
+}
+
+.textTitle {
+  height: 30px;
+  overflow: hidden;
+}
