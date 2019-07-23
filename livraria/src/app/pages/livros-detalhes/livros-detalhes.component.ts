@@ -29,7 +29,7 @@ export class LivrosDetalhesComponent implements OnInit {
     const id = String(this.route.snapshot.paramMap.get('id'));
 
     this.formReservas = this.fb.group({
-      nome: ['', [Validators.required]],
+      nome: ['', [Validators.required, Validators.minLength(4)]],
       nomelivro: ['', [Validators.required]],
       email: ['', [Validators.required, Validators.email]]
     });

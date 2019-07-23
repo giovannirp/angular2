@@ -171,6 +171,30 @@
       "nomelivro": "Full stack JavaScript",
       "email": "durao@hotmail.com",
       "id": 6
+    },
+    {
+      "nome": "Douglas Prince",
+      "nomelivro": " A Menina Que Roubava Livros ",
+      "email": "princi@hotmail.com",
+      "id": 7
+    },
+    {
+      "nome": "Nathilia",
+      "nomelivro": "Me Poupe!",
+      "email": "nat@hotmail.com",
+      "id": 8
+    },
+    {
+      "nome": "Tiaguinho",
+      "nomelivro": "Beginning Angular with Typescript",
+      "email": "tiaguinho@hotmail.com",
+      "id": 10
+    },
+    {
+      "nome": "Doctor ",
+      "nomelivro": "Full stack JavaScript",
+      "email": "doctor@hotmail.com",
+      "id": 11
     }
   ]
 }
