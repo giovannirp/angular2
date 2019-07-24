@@ -1,0 +1,27 @@
+<div class="container">
+  <h4 class="text-success">Duvidas</h4>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate aliquid culpa itaque ipsam excepturi nesciunt
+    architecto expedita cum labore nobis? Nisi voluptas quaerat commodi autem architecto, perspiciatis omnis at
+    tempora.<br />
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laborum eveniet nihil, inventore obcaecati harum
+    nemo necessitatibus tempora beatae atque culpa perspiciatis repudiandae, magni, reprehenderit corrupti dolore saepe
+    id blanditiis.
+  </p>
+
+  <div id="accordion">
+    <div class="card" *ngFor="let listasFaq of listaFaq">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#{{listasFaq.id}}">
+          {{listasFaq.post1}}
+        </a>
+      </div>
+      <!--  [ngClass]="{backgroundCard: livro.status === status}" -->
+      <div id="{{listasFaq.id}}" class="collapse"  [ngClass]="{show: listasFaq.id === 'duvidaone'}" data-parent="#accordion">
+        <div class="card-body">
+          <strong class="text-danger">{{listasFaq.answer}}</strong><br />
+          {{listasFaq.textlong}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

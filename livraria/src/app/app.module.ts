@@ -1,3 +1,4 @@
+import { FaqService } from './services/faq.service';
 import { LivrosService } from './services/livros.service';
 import { CardsService } from './services/cards.service';
 import { AppRoutesModule } from './modules/app-routes/app-routes.module';
@@ -21,6 +22,7 @@ import { CardsComponent } from './shared/components/cards/cards.component';
 import { CardDetailComponent } from './shared/components/card-detail/card-detail.component';
 import { LivrosDetalhesComponent } from './pages/livros-detalhes/livros-detalhes.component';
 import { ReservasComponent } from './pages/reservas/reservas.component';
+import { FaqComponent } from './pages/faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,8 @@ import { ReservasComponent } from './pages/reservas/reservas.component';
     CardsComponent,
     CardDetailComponent,
     LivrosDetalhesComponent,
-    ReservasComponent
+    ReservasComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +52,7 @@ import { ReservasComponent } from './pages/reservas/reservas.component';
   ],
   exports: [BsDropdownModule, TooltipModule, ModalModule],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
-  providers: [CardsService, LivrosService],
+  providers: [CardsService, LivrosService, FaqService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

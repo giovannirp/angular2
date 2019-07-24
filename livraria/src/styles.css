@@ -6,3 +6,8 @@
 .activeLink {
   text-decoration: underline;
 }
+
+.scrollHiden {
+  height: 346px;
+  overflow: auto;
+}

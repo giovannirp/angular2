@@ -49,7 +49,7 @@ export class LivrosDetalhesComponent implements OnInit {
   messageAdd() {
     $('#mensagemCadastro').modal('show');
     setTimeout(() => {
-      this.router.navigate(['/livros']);
+      this.router.navigate(['/reservas']);
       $('#mensagemCadastro').modal('hide');
     }, 1500);
   }
