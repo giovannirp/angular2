@@ -20,10 +20,10 @@ export class LivrosDetalhesComponent implements OnInit {
   reservaslivros: Reservas[] = [];
 
   constructor(private livrosService: LivrosService,
-              private reservasLivros: RerservasService,
-              private route: ActivatedRoute,
-              private fb: FormBuilder,
-              private router: Router) { }
+    private reservasLivros: RerservasService,
+    private route: ActivatedRoute,
+    private fb: FormBuilder,
+    private router: Router) { }
 
   ngOnInit() {
     const id = String(this.route.snapshot.paramMap.get('id'));
@@ -35,11 +35,11 @@ export class LivrosDetalhesComponent implements OnInit {
     });
 
     this.livrosService.getLivrosDetails(id)
-    .subscribe(livro => {
-      this.livro = livro;
-      /* setValue */
-      this.nomelivro.setValue(livro.name);
-    });
+      .subscribe(livro => {
+        this.livro = livro;
+        /* setValue */
+        this.nomelivro.setValue(livro.name);
+      });
   }
 
   hideModal() {
@@ -55,25 +55,33 @@ export class LivrosDetalhesComponent implements OnInit {
   }
 
   sendForm() {
-     const reserva: Reservas = {
+    const reserva: Reservas = {
       nome: this.nome.value,
       nomelivro: this.nomelivro.value,
       email: this.email.value
     };
 
-     this.reservasLivros.addReservas(reserva)
-     .subscribe(c => {
-       this.reservaslivros.push(reserva);
-       this.formReservas.reset();
-     });
-     /*removendo modal */
-     this.hideModal();
-     this.messageAdd();
+    this.reservasLivros.addReservas(reserva)
+      .subscribe(c => {
+        this.reservaslivros.push(reserva);
+        this.formReservas.reset();
+      });
+    /*removendo modal */
+    this.hideModal();
+    this.messageAdd();
   }
 
-  get nome(): AbstractControl { return this.formReservas.get('nome'); }
-  get nomelivro(): AbstractControl { return this.formReservas.get('nomelivro'); }
-  get email(): AbstractControl { return this.formReservas.get('email'); }
+  get nome(): AbstractControl {
+    return this.formReservas.get('nome');
+  }
+
+  get nomelivro(): AbstractControl {
+    return this.formReservas.get('nomelivro');
+  }
+
+  get email(): AbstractControl {
+    return this.formReservas.get('email');
+  }
 
 
 }

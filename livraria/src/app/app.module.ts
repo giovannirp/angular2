@@ -23,6 +23,8 @@ import { CardDetailComponent } from './shared/components/card-detail/card-detail
 import { LivrosDetalhesComponent } from './pages/livros-detalhes/livros-detalhes.component';
 import { ReservasComponent } from './pages/reservas/reservas.component';
 import { FaqComponent } from './pages/faq/faq.component';
+import { ValidationDirective } from './shared/directiva/validation.directive';
+import { ErrorComponentComponent } from './shared/components/error-component/error-component.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { FaqComponent } from './pages/faq/faq.component';
     CardDetailComponent,
     LivrosDetalhesComponent,
     ReservasComponent,
-    FaqComponent
+    FaqComponent,
+    ValidationDirective,
+    ErrorComponentComponent
   ],
   imports: [
     BrowserModule,

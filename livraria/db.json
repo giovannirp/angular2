@@ -278,6 +278,42 @@
       "nomelivro": "Beginning Angular with Typescript",
       "email": "pacheco@hotmail.com",
       "id": 23
+    },
+    {
+      "nome": "Paulo Cesar",
+      "nomelivro": " Chaves A História Oficial Ilustrada",
+      "email": "pc@hotmail.org.br",
+      "id": 24
+    },
+    {
+      "nome": "MENINA",
+      "nomelivro": " A Menina Que Roubava Livros ",
+      "email": "MENINA@hotmail.c",
+      "id": 25
+    },
+    {
+      "nome": "Helsink",
+      "nomelivro": " Chaves A História Oficial Ilustrada",
+      "email": "helsink@hotmail.co",
+      "id": 26
+    },
+    {
+      "nome": "Heltinho",
+      "nomelivro": " A Menina Que Roubava Livros ",
+      "email": "helton@hotmail.com",
+      "id": 27
+    },
+    {
+      "nome": "Jeffe",
+      "nomelivro": "ASP Clássico - Programando na Web",
+      "email": "princil@hotmail.com",
+      "id": 28
+    },
+    {
+      "nome": "sfdsd",
+      "nomelivro": "Shakespeare",
+      "email": "vrewr@hotmail.com",
+      "id": 29
     }
   ],
   "faq": [
