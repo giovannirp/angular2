@@ -144,6 +144,32 @@
       "infoProduto": "Este livro apresenta e discute a nutrição com um novo foco e premissas, bem como as diferentes ferramentas e estratégias que podem ser usadas para trabalhar a mudança de comportamento. Inédito no cenário brasileiro, é obra indispensável para nutricionistas, estudantes de Nutrição e profissionais das áreas de psicologia e de alimentos que tenham interesse nessa nova forma de pensar sobre comida.",
       "mensagemProduto": "Aconselhamento nutricional.",
       "description": "Embora os temas nutrição e alimentação estejam cada vez mais em pauta, persiste uma visão restrita e dicotômica do “saudável e não saudável”, dos alimentos “bons ou ruins”, na qual o prazer em comer é muitas vezes associado à culpa. Esse contexto não promove a mudança de comportamento e não torna as pessoas mais saudáveis (como pode ser comprovado pelo aumento dos índices de doenças crônicas, transtornos alimentares e obesidade)."
+    },
+    {
+      "id": "lugares",
+      "name": "1000 lugares para conhecer ",
+      "status": "ok",
+      "categoria": "Viagem",
+      "desconto": "10%",
+      "autor": "Docker Lima",
+      "imgPath": "assets/img/conhecer.jpg",
+      "imgPathGreat": "assets/img/nutri.jpg",
+      "infoProduto": "Com mais de 3 milhõ es de livros vendidos no mundo, 1.000 lugares para conhecer antes de morrer ganha uma nova ediç ã o ampliada, atualizada e com fotos coloridas. Primeiro lugar na lista do The New York Times. Mais de 300 mil exemplares vendidos da primeira ediç ã o brasileira. &ldquo Um livro que lhe diz o que é belo, inspirador, divertido e inesquecí vel em todas as partes do mundo.&rdquo &ndash Newsweek Há belezas inigualá veis no nosso planeta. Vivenciá #NOME? um exercí cio que inclui descobrir outros lugares, lí nguas, culturas e pessoas. Mais do que um guia de viagens,",
+      "mensagemProduto": "Com mais de 3 milhõ es de livros vendidos no mundo, 1.000 lugares.",
+      "description": "Com mais de 3 milhõ es de livros vendidos no mundo, 1.000 lugares para conhecer antes de morrer ganha uma nova ediç ã o ampliada, atualizada e com fotos coloridas. Primeiro lugar na lista do The New York Times. Mais de 300 mil exemplares vendidos da primeira ediç ã o brasileira. &ldquo Um livro que lhe diz o que é belo, inspirador, divertido e inesquecí vel em todas as partes do mundo.&rdquo &ndash Newsweek Há belezas inigualá veis no nosso planeta. Vivenciá #NOME? um exercí cio que inclui descobrir outros lugares, lí nguas, culturas e pessoas. Mais do que um guia de viagens, 1.000 lugares para conhecer antes de morrer é um catá logo para essas experiê ncias memorá veis. Desfrutar os temperos, cores e aromas do Yacout, no Marrocos. Arrebatar-se com a beleza das esculturas de gelo do Festival de Neve de Sapporo, no Japã o. Sobrevoar Masai Mara em um balã o e assistir a milhares de gnus percorrerem o Serengeti. Aproveitar a mesma paisagem que inspirou Miró , na costa de Amalfi, na Itá lia. Estar presente no Festival Internacional de Cinema de Toronto, no Canadá . Navegar pelo rio Negro até seu encontro com as á guas do Solimõ es, formando o rio Amazonas. Cada verbete deste guia atualizado, ampliado e com imagens coloridas ajudará sua viagem a ficar completa, informando a é poca mais apropriada para visitar o destino escolhido, assim como os melhores restaurantes e os hoté is mais elogiados da regiã o. Entre ruí nas sagradas, recifes de corais, praias desertas, trilhas, ó peras, castelos e museus, o mundo está a seu alcance para ser descoberto. Entã o faç a sua lista de lugares preferidos, arrume suas malas, pegue seu passaporte e boa viagem"
+    },
+    {
+      "id": "busca",
+      "name": "Em busca do ser: ",
+      "status": "ok",
+      "categoria": "Planeta",
+      "desconto": "75%",
+      "autor": "Trellher Lima",
+      "imgPath": "assets/img/busca.jpg",
+      "imgPathGreat": "assets/img/nutri.jpg",
+      "infoProduto": "Com mais de 3 milhõ es de livros vendidos no mundo, 1.000 lugares para conhecer antes de morrer ganha uma nova ediç ã o ampliada, atualizada e com fotos coloridas. Primeiro lugar na lista do The New York Times. Mais de 300 mil exemplares vendidos da primeira ediç ã o brasileira. &ldquo Um livro que lhe diz o que é belo, inspirador, divertido e inesquecí vel em todas as partes do mundo.&rdquo &ndash Newsweek Há belezas inigualá veis no nosso planeta. Vivenciá #NOME? um exercí cio que inclui descobrir outros lugares, lí nguas, culturas e pessoas. Mais do que um guia de viagens,",
+      "mensagemProduto": "Neste livro, todos os princípios e métodos básicos de Gurdjieff para transformar o intelecto, as emoções e o corpo, no sistema conhecido como o Quarto Caminho, são apresentados nas palavras claras e precisas do próprio Gurdjieff. Organizado numa sequência.",
+      "description": "Neste livro, todos os princípios e métodos básicos de Gurdjieff para transformar o intelecto, as emoções e o corpo, no sistema conhecido como o Quarto Caminho, são apresentados nas palavras claras e precisas do próprio Gurdjieff. Organizado numa sequência Em busca do ser: O Quarto Caminho Para Uma Nova Consciência (Português) Capa Comum – 31 mai 2017"
     }
   ],
   "reservas": [
@@ -314,6 +340,12 @@
       "nomelivro": "Shakespeare",
       "email": "vrewr@hotmail.com",
       "id": 29
+    },
+    {
+      "nome": "Victor",
+      "nomelivro": "Full stack JavaScript",
+      "email": "victor@ibest.com.br",
+      "id": 30
     }
   ],
   "faq": [

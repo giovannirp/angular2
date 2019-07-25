@@ -12,7 +12,7 @@
   <div class="col-sm-6 flex-column">
     <span>{{livro?.infoProduto}}</span><br />
     <strong class="text-danger">{{livro?.desconto}} de desconto</strong><br />
-    <small class="text-success">Autor: {{livros?.autor}}</small>
+    <small class="text-success">Autor: {{livro?.autor}}</small>
     <p class="text-danger">{{livro?.mensagemProduto}}</p>
     <p>{{livro?.description}}</p>
     <button class="btn btn-success" data-toggle="modal" data-target="#reservaLivros">
@@ -47,7 +47,6 @@
             </div>
 
             <app-error-component [control]="nome"></app-error-component>
-
 
               <!--
             <div *ngIf="nome.invalid && (nome.dirty || nome.touched)" class="alert alert-danger">
