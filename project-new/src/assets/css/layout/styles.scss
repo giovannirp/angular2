@@ -1,6 +1,5 @@
 :active, :focus { outline: none; -moz-outline-style: none; }
 
-
 .active {
   background: #fff;
   border-radius: 7px;
@@ -24,3 +23,10 @@
   width: 100%;
   margin-top: 120px;
 }
+
+.invalid-field {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 90%;
+  color: #dc3545;
+ }

@@ -33,6 +33,8 @@ import { ListContactComponent } from './page/list-contact/list-contact.component
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { NewsService } from './services/news.service';
 import { ListEmailComponent } from './page/list-email/list-email.component';
+import { ValidationDirective } from './shared/directiva/validation.directive';
+import { ErrorComponentComponent } from './shared/components/error-component/error-component.component';
 
 
 
@@ -58,6 +60,8 @@ import { ListEmailComponent } from './page/list-email/list-email.component';
     MaisDuvidasComponent,
     ListContactComponent,
     ListEmailComponent,
+    ValidationDirective,
+    ErrorComponentComponent,
   ],
   imports: [
     FormsModule,

@@ -6,12 +6,14 @@
       <form [formGroup]="formNews" class="col-sm-12">
         <div class="form-group">
           <label for="nome">Nome:</label>
-          <input type="text" formControlName="nome" class="form-control" placeholder="Digite seu nome" />
+          <input type="text" formControlName="nome" appValidation showSuccess="true" class="form-control" placeholder="Digite seu nome" />
         </div>
+
         <div class="form-group">
           <label for="email">Email:</label>
-          <input type="email" formControlName="email" class="form-control" placeholder="Digite seu email" />
+          <input type="email" formControlName="email" appValidation showSuccess="true" class="form-control" placeholder="Digite seu email" />
         </div>
+
         <div class="buttons">
             <button class="btn btn-primary" (click)="sendNews()" [disabled]="!formNews.valid">Enviar</button>
             <a [routerLink]="['/listEmail']">

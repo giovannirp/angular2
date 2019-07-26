@@ -17,7 +17,7 @@ export class SidebarComponent implements OnInit {
 
   ngOnInit() {
     this.formNews = this.fb.group({
-      nome: ['', [Validators.required]],
+      nome: ['', [Validators.required, Validators.minLength(4)]],
       email: ['', [Validators.required, Validators.email]]
     });
   }
