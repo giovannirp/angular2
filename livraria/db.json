@@ -346,6 +346,36 @@
       "nomelivro": "Full stack JavaScript",
       "email": "victor@ibest.com.br",
       "id": 30
+    },
+    {
+      "nome": "Mikio",
+      "nomelivro": " A Menina Que Roubava Livros ",
+      "email": "mikio@ibest.com",
+      "id": 31
+    },
+    {
+      "nome": "gigi",
+      "nomelivro": " Chaves A História Oficial Ilustrada",
+      "email": "gigi@hotmail",
+      "id": 32
+    },
+    {
+      "nome": "Rafa ",
+      "nomelivro": "ASP Clássico - Programando na Web",
+      "email": "rafa@hotmail.com",
+      "id": 33
+    },
+    {
+      "nome": "Yan Morais",
+      "nomelivro": "ASP Clássico - Programando na Web",
+      "email": "yan096@ig.com",
+      "id": 34
+    },
+    {
+      "nome": "Alex",
+      "nomelivro": "1000 lugares para conhecer ",
+      "email": "coloucomdurex@hotmail.com",
+      "id": 35
     }
   ],
   "faq": [
