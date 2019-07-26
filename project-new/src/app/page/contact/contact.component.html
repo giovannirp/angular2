@@ -21,6 +21,13 @@
           <app-error-component [control]="phone"></app-error-component>
 
           <div class="form-group">
+            <label for="pwd" class="text-info">Cpf:</label>
+            <input type="text" appValidation showSuccess="true" class="form-control" formControlName="cpf">
+          </div>
+          <app-error-component [control]="cpf"></app-error-component>
+
+
+          <div class="form-group">
             <label for="pwd" class="text-info">Email:</label>
             <input type="email" appValidation showSuccess="true" class="form-control" formControlName="email">
           </div>

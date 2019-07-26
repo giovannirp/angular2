@@ -14,7 +14,8 @@ export class ErrorComponentComponent implements OnInit {
     maxlength: (params) => 'Tamanho máximo é de ' + params.requiredLength + ' caracteres',
     pattern: (params) => 'O formato obrigatório é: ' + params.requiredPattern,
     email: (aprams) => 'Erro campo precisa ser um email',
-    uniqueName: (params) => 'Esse campo precisa ser único'
+    uniqueName: (params) => 'Esse campo precisa ser único',
+    cpf: (params) => params.message
   };
 
   @Input() control: AbstractControlDirective | AbstractControl;
