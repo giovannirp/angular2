@@ -174,78 +174,6 @@
   ],
   "reservas": [
     {
-      "nome": "Prince",
-      "nomelivro": "Nutrição Comportamental",
-      "email": "prince@hotmail.com",
-      "id": 1
-    },
-    {
-      "nome": "Gigi",
-      "nomelivro": " Chaves A História Oficial Ilustrada",
-      "email": "gigi@hotmail.com",
-      "id": 2
-    },
-    {
-      "nome": "Abner",
-      "nomelivro": "Me Poupe!",
-      "email": "abner@hotmail.com",
-      "id": 3
-    },
-    {
-      "nome": "Luciano Meideiros",
-      "nomelivro": " A Menina Que Roubava Livros ",
-      "email": "luciano@hotmail.com",
-      "id": 4
-    },
-    {
-      "nome": "Maria",
-      "nomelivro": " A Menina Que Roubava Livros ",
-      "email": "maria@hotmail.com",
-      "id": 5
-    },
-    {
-      "nome": "ricardo Durao",
-      "nomelivro": "Full stack JavaScript",
-      "email": "durao@hotmail.com",
-      "id": 6
-    },
-    {
-      "nome": "Douglas Prince",
-      "nomelivro": " A Menina Que Roubava Livros ",
-      "email": "princi@hotmail.com",
-      "id": 7
-    },
-    {
-      "nome": "Nathilia",
-      "nomelivro": "Me Poupe!",
-      "email": "nat@hotmail.com",
-      "id": 8
-    },
-    {
-      "nome": "Tiaguinho",
-      "nomelivro": "Beginning Angular with Typescript",
-      "email": "tiaguinho@hotmail.com",
-      "id": 10
-    },
-    {
-      "nome": "Doctor ",
-      "nomelivro": "Full stack JavaScript",
-      "email": "doctor@hotmail.com",
-      "id": 11
-    },
-    {
-      "nome": "Vini",
-      "nomelivro": " Chaves A História Oficial Ilustrada",
-      "email": "vini@hotmail.com",
-      "id": 12
-    },
-    {
-      "nome": "Luan",
-      "nomelivro": "Shakespeare",
-      "email": "luan@hotmail.com",
-      "id": 13
-    },
-    {
       "nome": "Igão",
       "nomelivro": "Shakespeare",
       "email": "igao@hotmail.com",
@@ -258,100 +186,16 @@
       "id": 15
     },
     {
-      "nome": "Michelzinho",
-      "nomelivro": " Chaves A História Oficial Ilustrada",
-      "email": "michelzinho@hotmail.com",
-      "id": 16
-    },
-    {
-      "nome": "Lurdes",
-      "nomelivro": "Me Poupe!",
-      "email": "lurdesLoca@hotmail.com",
-      "id": 17
-    },
-    {
-      "nome": "Ted Med",
-      "nomelivro": "Full stack JavaScript",
-      "email": "ted@hotmail.com",
-      "id": 18
-    },
-    {
-      "nome": "Hiro",
-      "nomelivro": "Full stack JavaScript",
-      "email": "hiro@hotmail.com",
-      "id": 19
-    },
-    {
       "nome": "Rodrigo Pilogo",
       "nomelivro": "ASP Clássico - Programando na Web",
       "email": "pilogo@logo.com.br",
       "id": 20
     },
     {
-      "nome": "Willian",
+      "nome": "Willian Alterado Alterado",
       "nomelivro": " A Menina Que Roubava Livros ",
-      "email": "willian@hotmail.com",
+      "email": " Email tatu",
       "id": 21
-    },
-    {
-      "nome": "Erick",
-      "nomelivro": "Shakespeare",
-      "email": "erick@ig.com.br",
-      "id": 22
-    },
-    {
-      "nome": "Tiago Pacheco",
-      "nomelivro": "Beginning Angular with Typescript",
-      "email": "pacheco@hotmail.com",
-      "id": 23
-    },
-    {
-      "nome": "Paulo Cesar",
-      "nomelivro": " Chaves A História Oficial Ilustrada",
-      "email": "pc@hotmail.org.br",
-      "id": 24
-    },
-    {
-      "nome": "MENINA",
-      "nomelivro": " A Menina Que Roubava Livros ",
-      "email": "MENINA@hotmail.c",
-      "id": 25
-    },
-    {
-      "nome": "Helsink",
-      "nomelivro": " Chaves A História Oficial Ilustrada",
-      "email": "helsink@hotmail.co",
-      "id": 26
-    },
-    {
-      "nome": "Heltinho",
-      "nomelivro": " A Menina Que Roubava Livros ",
-      "email": "helton@hotmail.com",
-      "id": 27
-    },
-    {
-      "nome": "Jeffe",
-      "nomelivro": "ASP Clássico - Programando na Web",
-      "email": "princil@hotmail.com",
-      "id": 28
-    },
-    {
-      "nome": "sfdsd",
-      "nomelivro": "Shakespeare",
-      "email": "vrewr@hotmail.com",
-      "id": 29
-    },
-    {
-      "nome": "Victor",
-      "nomelivro": "Full stack JavaScript",
-      "email": "victor@ibest.com.br",
-      "id": 30
-    },
-    {
-      "nome": "Mikio",
-      "nomelivro": " A Menina Que Roubava Livros ",
-      "email": "mikio@ibest.com",
-      "id": 31
     },
     {
       "nome": "gigi",
@@ -360,22 +204,10 @@
       "id": 32
     },
     {
-      "nome": "Rafa ",
-      "nomelivro": "ASP Clássico - Programando na Web",
-      "email": "rafa@hotmail.com",
+      "nome": "Zeca Tatu",
+      "nomelivro": "Beginning Angular with Typescript",
+      "email": "tatu@hotmail.com",
       "id": 33
-    },
-    {
-      "nome": "Yan Morais",
-      "nomelivro": "ASP Clássico - Programando na Web",
-      "email": "yan096@ig.com",
-      "id": 34
-    },
-    {
-      "nome": "Alex",
-      "nomelivro": "1000 lugares para conhecer ",
-      "email": "coloucomdurex@hotmail.com",
-      "id": 35
     }
   ],
   "faq": [

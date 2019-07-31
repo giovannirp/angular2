@@ -25,4 +25,18 @@ export class RerservasService {
       catchError(ErrorHandler.handlerError)
     );
   }
+
+  removeLivros(id: string): Observable<any> {
+    return this.http.delete(BOOK_API + `/reservas/${id}`)
+    .pipe(
+      catchError(ErrorHandler.handlerError)
+    );
+  }
+
+  alterarLivros(reserva: Reservas): Observable<any> {
+    return this.http.put(BOOK_API + `/reservas/${reserva.id}`, reserva)
+    .pipe(
+      catchError(ErrorHandler.handlerError)
+    );
+  }
 }

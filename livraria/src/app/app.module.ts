@@ -25,6 +25,8 @@ import { ReservasComponent } from './pages/reservas/reservas.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { ValidationDirective } from './shared/directiva/validation.directive';
 import { ErrorComponentComponent } from './shared/components/error-component/error-component.component';
+import { AlerarLivrosComponent } from './page/alerar-livros/alerar-livros.component';
+
 
 @NgModule({
   declarations: [
@@ -40,7 +42,8 @@ import { ErrorComponentComponent } from './shared/components/error-component/err
     ReservasComponent,
     FaqComponent,
     ValidationDirective,
-    ErrorComponentComponent
+    ErrorComponentComponent,
+    AlerarLivrosComponent
   ],
   imports: [
     BrowserModule,
@@ -53,7 +56,7 @@ import { ErrorComponentComponent } from './shared/components/error-component/err
     AppRoutingModule,
     AppRoutesModule,
     Ng2SearchPipeModule
-  ],
+    ],
   exports: [BsDropdownModule, TooltipModule, ModalModule],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [CardsService, LivrosService, FaqService],
