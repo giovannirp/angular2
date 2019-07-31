@@ -174,21 +174,9 @@
   ],
   "reservas": [
     {
-      "nome": "Igão",
-      "nomelivro": "Shakespeare",
-      "email": "igao@hotmail.com",
-      "id": 14
-    },
-    {
-      "nome": "Mari",
+      "nome": "Rodrigo Pilogo Alterado",
       "nomelivro": "ASP Clássico - Programando na Web",
-      "email": "Mari@hotmail.com",
-      "id": 15
-    },
-    {
-      "nome": "Rodrigo Pilogo",
-      "nomelivro": "ASP Clássico - Programando na Web",
-      "email": "pilogo@logo.com.br",
+      "email": " Email tatu",
       "id": 20
     },
     {
@@ -208,6 +196,12 @@
       "nomelivro": "Beginning Angular with Typescript",
       "email": "tatu@hotmail.com",
       "id": 33
+    },
+    {
+      "nome": "Helton",
+      "nomelivro": "ASP Clássico - Programando na Web",
+      "email": "helton@hotmail.com",
+      "id": 34
     }
   ],
   "faq": [
