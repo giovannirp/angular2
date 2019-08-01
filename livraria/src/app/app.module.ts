@@ -25,7 +25,8 @@ import { ReservasComponent } from './pages/reservas/reservas.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { ValidationDirective } from './shared/directiva/validation.directive';
 import { ErrorComponentComponent } from './shared/components/error-component/error-component.component';
-import { AlerarLivrosComponent } from './page/alerar-livros/alerar-livros.component';
+import { AlerarLivrosComponent  } from './pages/alerar-livros/alerar-livros.component';
+
 
 
 @NgModule({

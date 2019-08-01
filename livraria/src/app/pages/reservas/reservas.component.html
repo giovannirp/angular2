@@ -41,7 +41,7 @@
             <td>{{reserva.nome}}</td>
             <td class="text-success">{{reserva.nomelivro}}</td>
             <td>{{reserva.email}}</td>
-            <td><a class="btn btn-warning" [routerLink]="['/reservas', reserva.id]">Alterar</a></td>
+            <td><a class="btn btn-warning text-success" [routerLink]="['/reservas', reserva.id]">Alterar</a></td>
             <td><button class="btn btn-danger" (click)="delete(reserva.id)">Remover</button></td>
           </tr>
         </tbody>

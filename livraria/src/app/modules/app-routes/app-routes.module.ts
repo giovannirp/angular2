@@ -1,8 +1,8 @@
-import { AlerarLivrosComponent } from './../../page/alerar-livros/alerar-livros.component';
 import { FaqComponent } from './../../pages/faq/faq.component';
 import { ReservasComponent } from './../../pages/reservas/reservas.component';
 import { LivrosDetailsComponent } from './../../pages/livros/livros-details/livros-details.component';
 import { LivrosComponent } from './../../pages/livros/livros.component';
+import { AlerarLivrosComponent  } from './../../pages/alerar-livros/alerar-livros.component';
 import { HomeComponent } from './../../pages/home/home.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
