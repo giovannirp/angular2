@@ -32,6 +32,20 @@ export class RerservasService {
       catchError(ErrorHandler.handlerError)
     );
   }
+/*
+  getLivrosDetails(id: string): Observable<any> {
+    return this.http.get(BOOK_API + `/livros/${id}`)
+    .pipe(
+      catchError(ErrorHandler.handlerError)
+    );
+  }*/
+
+  getLivrosId(id: string): Observable<any> {
+    return this.http.get(BOOK_API + `reservas/${id}`)
+    .pipe(
+      catchError(ErrorHandler.handlerError)
+    );
+  }
 
   alterarLivros(reserva: Reservas): Observable<any> {
     return this.http.put(BOOK_API + `/reservas/${reserva.id}`, reserva)

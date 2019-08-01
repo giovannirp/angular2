@@ -174,12 +174,6 @@
   ],
   "reservas": [
     {
-      "nome": "Rodrigo Pilogo Alterado",
-      "nomelivro": "ASP Clássico - Programando na Web",
-      "email": " Email tatu",
-      "id": 20
-    },
-    {
       "nome": "Willian Alterado Alterado",
       "nomelivro": " A Menina Que Roubava Livros ",
       "email": " Email tatu",
@@ -192,16 +186,16 @@
       "id": 32
     },
     {
-      "nome": "Zeca Tatu",
-      "nomelivro": "Beginning Angular with Typescript",
-      "email": "tatu@hotmail.com",
-      "id": 33
-    },
-    {
       "nome": "Helton",
       "nomelivro": "ASP Clássico - Programando na Web",
       "email": "helton@hotmail.com",
       "id": 34
+    },
+    {
+      "nome": "Rodrigão",
+      "nomelivro": " A Menina Que Roubava Livros ",
+      "email": "rodrigo@hotmail.com",
+      "id": 36
     }
   ],
   "faq": [

@@ -1,3 +1,4 @@
+import { AlerarLivrosComponent } from './../../page/alerar-livros/alerar-livros.component';
 import { FaqComponent } from './../../pages/faq/faq.component';
 import { ReservasComponent } from './../../pages/reservas/reservas.component';
 import { LivrosDetailsComponent } from './../../pages/livros/livros-details/livros-details.component';
@@ -16,6 +17,7 @@ const ROUTES: Routes = [
   {path: 'livros', component: LivrosComponent },
   {path: 'livros/:id', component: LivrosDetalhesComponent },
   {path: 'reservas', component: ReservasComponent},
+  {path: 'reservas/:id', component: AlerarLivrosComponent},
   {path: 'faq', component: FaqComponent}
 ];
 

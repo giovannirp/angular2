@@ -1,18 +1,23 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 import { RerservasService } from './../../services/reservas.service';
 import { Reservas } from './../../model/reserva.model';
+
 
 @Component({
   selector: 'app-reservas',
   templateUrl: './reservas.component.html',
   styleUrls: ['./reservas.component.css']
 })
+
+
 export class ReservasComponent implements OnInit {
 
   listaReservas: Reservas[] = [];
 
-  constructor(private reservasService: RerservasService) { }
+  constructor(private reservasService: RerservasService,
+              private route: ActivatedRoute) { }
 
   ngOnInit() {
     this.carregarReservas();
@@ -38,8 +43,15 @@ export class ReservasComponent implements OnInit {
   }
 
   private carregarReservas() {
+    /*const id = String(this.route.snapshot.paramMap.get('id'));*/
     this.reservasService.getReservas()
     .subscribe(listaReservas => this.listaReservas = listaReservas);
+
+    /*
+    this.reservasService.getLivrosId(id)
+    .subscribe(listaReservas => this.listaReservas = listaReservas);
+    */
+
   }
 
 }
