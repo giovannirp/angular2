@@ -20,7 +20,9 @@ export class LivrosDetalhesComponent implements OnInit {
   reservaslivros: Reservas[] = [];
 
   constructor(private livrosService: LivrosService,
-              private reservasLivros: RerservasService, private route: ActivatedRoute, private fb: FormBuilder, private router: Router) { }
+              private reservasLivros: RerservasService,
+              private route: ActivatedRoute,
+              private fb: FormBuilder, private router: Router) { }
 
   ngOnInit() {
     const id = String(this.route.snapshot.paramMap.get('id'));

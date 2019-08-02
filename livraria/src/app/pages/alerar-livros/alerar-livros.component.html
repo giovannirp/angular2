@@ -1,18 +1,18 @@
 <h4>Alteração de Reservas</h4>
-<form>
+<form [formGroup]="formAltearReserva">
   <div class="form-group">
-    <label class="text-info">Nome do livro:</label>
-    <input type="text" class="form-control" placeholder="Digite o nome do livro">
+    <label class="text-info">Nome:</label>
+    <input type="text" class="form-control" formControlName="nome" placeholder="Digite o nome do livro">
   </div>
 
   <div class="form-group">
-    <label class="text-info">Nome:</label>
-    <input type="text" class="form-control" placeholder="Digite seu nome">
+    <label class="text-info">Nome do livro:</label>
+    <input type="text" class="form-control" formControlName="nomelivro" placeholder="Digite seu nome">
   </div>
 
   <div class="form-group">
     <label class="text-info">Email:</label>
-    <input type="email" class="form-control" placeholder="Digite seu Email">
+    <input type="email" class="form-control" formControlName="email" placeholder="Digite seu Email">
   </div>
 
   <div class="form-group text-center">
@@ -21,3 +21,6 @@
     </button>
   </div>
 </form>
+
+{{reservasid | json}}
+

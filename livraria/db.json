@@ -190,6 +190,30 @@
       "nomelivro": " A Menina Que Roubava Livros ",
       "email": "rodrigo@hotmail.com",
       "id": 36
+    },
+    {
+      "nome": "Jose agusto",
+      "nomelivro": "Nutrição Comportamental",
+      "email": "agusto@hotmail.com",
+      "id": 37
+    },
+    {
+      "nome": "Luis",
+      "nomelivro": "1000 lugares para conhecer ",
+      "email": "luis@vertem.com",
+      "id": 38
+    },
+    {
+      "nome": "Luan",
+      "nomelivro": "Beginning Angular with Typescript",
+      "email": "luan@hotmail.com",
+      "id": 39
+    },
+    {
+      "nome": "Falecido",
+      "nomelivro": "Beginning Angular with Typescript",
+      "email": "falecido@hotmail.com",
+      "id": 40
     }
   ],
   "faq": [
