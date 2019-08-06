@@ -14,15 +14,17 @@ export class AlerarLivrosComponent implements OnInit {
 
   reservasid: Reservas;
   formAltearReserva: FormGroup;
+  reservaslivros: Reservas[] = [];
+  currentId: string;
 
   constructor(private reservaService: RerservasService,
               private route: ActivatedRoute,
               private fb: FormBuilder, private router: Router) { }
 
   ngOnInit() {
-    const id = String(this.route.snapshot.paramMap.get('id'));
+    this.currentId = String(this.route.snapshot.paramMap.get('id'));
 
-    this.reservaService.getLivrosId(id)
+    this.reservaService.getLivrosId(this.currentId)
     .subscribe(reservasid => this.reservasid = reservasid);
 
 
@@ -32,7 +34,7 @@ export class AlerarLivrosComponent implements OnInit {
       email: ['', [Validators.required, Validators.email]]
     });
 
-    this.reservaService.getLivrosId(id)
+    this.reservaService.getLivrosId(this.currentId)
     .subscribe(reservasid => {
       this.reservasid = reservasid;
 
@@ -43,6 +45,19 @@ export class AlerarLivrosComponent implements OnInit {
     });
   }
 
+  alterar(reservas: Reservas) {
+    const reserva: Reservas = {
+      id: this.currentId,
+      nome: this.nome.value,
+      nomelivro: this.nomelivro.value,
+      email: this.email.value
+    };
+
+    this.reservaService.alterarLivros(reserva)
+      .subscribe(result => {
+        this.reservaslivros.push(reserva);
+      });
+  }
 
   get nome(): AbstractControl {
     return this.formAltearReserva.get('nome');

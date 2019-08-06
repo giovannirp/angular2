@@ -41,6 +41,7 @@ export class RerservasService {
   }
 
   alterarLivros(reserva: Reservas): Observable<any> {
+    console.log(reserva);
     return this.http.put(BOOK_API + `/reservas/${reserva.id}`, reserva)
     .pipe(
       catchError(ErrorHandler.handlerError)
