@@ -52,6 +52,7 @@ export class AlerarLivrosComponent implements OnInit {
       nomelivro: this.nomelivro.value,
       email: this.email.value
     };
+    console.log('alterado com sucesso');
 
     this.reservaService.alterarLivros(reserva)
       .subscribe(result => {
