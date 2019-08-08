@@ -1,3 +1,4 @@
+import { ToastrService } from 'ngx-toastr';
 import { Validators, FormGroup, FormBuilder, AbstractControl } from '@angular/forms';
 import { LivrosService } from './../../services/livros.service';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -17,7 +18,8 @@ export class AlerarLivrosComponent implements OnInit {
   reservaslivros: Reservas[] = [];
   currentId: string;
 
-  constructor(private reservaService: RerservasService,
+  constructor(private toastr: ToastrService,
+              private reservaService: RerservasService,
               private route: ActivatedRoute,
               private fb: FormBuilder, private router: Router) { }
 
@@ -26,7 +28,6 @@ export class AlerarLivrosComponent implements OnInit {
 
     this.reservaService.getLivrosId(this.currentId)
     .subscribe(reservasid => this.reservasid = reservasid);
-
 
     this.formAltearReserva = this.fb.group({
       nome: ['', [Validators.required]],
@@ -53,11 +54,21 @@ export class AlerarLivrosComponent implements OnInit {
       email: this.email.value
     };
     console.log('alterado com sucesso');
+    this.showSuccess();
+
 
     this.reservaService.alterarLivros(reserva)
       .subscribe(result => {
         this.reservaslivros.push(reserva);
       });
+  }
+
+  showSuccess() {
+    this.toastr.success('Alterado com sucesso', 'Alteração!');
+  }
+
+  errorMessage() {
+    this.toastr.error('errou mano', 'errou');
   }
 
   get nome(): AbstractControl {

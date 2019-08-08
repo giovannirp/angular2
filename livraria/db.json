@@ -175,9 +175,9 @@
   "reservas": [
     {
       "id": 32,
-      "nome": "gigi",
+      "nome": "Marcos nosso",
       "nomelivro": " Chaves A História Oficial Ilustrada",
-      "email": "gigi@hotmail"
+      "email": "gigi@hotmail.com"
     },
     {
       "id": 34,
@@ -186,16 +186,16 @@
       "email": "helton@hotmail.com"
     },
     {
-      "nome": "Rodrigão",
+      "id": 36,
+      "nome": "Rodrigão 2",
       "nomelivro": " A Menina Que Roubava Livros ",
-      "email": "rodrigo@hotmail.com",
-      "id": 36
+      "email": "rodrigo@hotmail.com"
     },
     {
-      "nome": "Jose agusto",
+      "id": 37,
+      "nome": "Tiaguinho",
       "nomelivro": "Nutrição Comportamental",
-      "email": "agusto@hotmail.com",
-      "id": 37
+      "email": "agusto@hotmail.com"
     },
     {
       "id": 38,
@@ -211,7 +211,7 @@
     },
     {
       "id": 40,
-      "nome": "Vivo",
+      "nome": "Luanzitod tretaeed",
       "nomelivro": "Beginning Angular with Typescript",
       "email": "falecido@hotmail.com"
     },
