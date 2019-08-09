@@ -174,52 +174,34 @@
   ],
   "reservas": [
     {
-      "id": 32,
-      "nome": "Marcos nosso",
-      "nomelivro": " Chaves A História Oficial Ilustrada",
-      "email": "gigi@hotmail.com"
-    },
-    {
-      "id": 34,
-      "nome": "Crente Sou princi",
-      "nomelivro": "ASP Clássico - Programando na Web",
-      "email": "helton@hotmail.com"
-    },
-    {
-      "id": 36,
-      "nome": "Rodrigão 2",
-      "nomelivro": " A Menina Que Roubava Livros ",
-      "email": "rodrigo@hotmail.com"
-    },
-    {
-      "id": 37,
-      "nome": "Tiaguinho",
-      "nomelivro": "Nutrição Comportamental",
-      "email": "agusto@hotmail.com"
-    },
-    {
-      "id": 38,
-      "nome": "Luis Mamtao",
-      "nomelivro": "1000 lugares para conhecer ",
-      "email": "luis@vertem.com"
-    },
-    {
-      "id": 39,
-      "nome": "Luan teste ete",
-      "nomelivro": "Beginning Angular with Typescript",
-      "email": "luan@hotmail.com"
-    },
-    {
       "id": 40,
       "nome": "Luanzitod tretaeed",
       "nomelivro": "Beginning Angular with Typescript",
       "email": "falecido@hotmail.com"
     },
     {
-      "nome": "Nadson",
+      "nome": "Paula Fernandes",
+      "nomelivro": "Nutrição Comportamental",
+      "email": "paula.verandes@hotmail.com",
+      "id": 43
+    },
+    {
+      "nome": "Helton@hotmail.com",
       "nomelivro": "ASP Clássico - Programando na Web",
-      "email": "nadson@hotmail.com",
-      "id": 41
+      "email": "helton@hotmail.com",
+      "id": 44
+    },
+    {
+      "nome": "Doris",
+      "nomelivro": "Nutrição Comportamental",
+      "email": "doris@hotmail.com",
+      "id": 45
+    },
+    {
+      "id": 46,
+      "nome": "Brenda New",
+      "nomelivro": "ASP Clássico - Programando na Web",
+      "email": "brenda@hotmail.com"
     }
   ],
   "faq": [

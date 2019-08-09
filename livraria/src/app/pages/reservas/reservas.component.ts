@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 
 import { RerservasService } from './../../services/reservas.service';
 import { Reservas } from './../../model/reserva.model';
+import { ToastrService } from 'ngx-toastr';
 
 
 @Component({
@@ -17,6 +18,7 @@ export class ReservasComponent implements OnInit {
   listaReservas: Reservas[] = [];
 
   constructor(private reservasService: RerservasService,
+              private toastr: ToastrService,
               private route: ActivatedRoute) { }
 
   ngOnInit() {
@@ -30,17 +32,13 @@ export class ReservasComponent implements OnInit {
       /*this.listaReservas = this.listaReservas.filter(x => x.id !== id);*/
       this.carregarReservas();
     });
+    this.messageDelete();
   }
 
-  alterar(reserva: Reservas) {
-    reserva.nome = reserva.nome + ' Alterado';
-    reserva.email = ' Email tatu';
-    this.reservasService.alterarLivros(reserva)
-    .subscribe(result => {
-      console.log('sucesso!');
-      this.carregarReservas();
-    });
+  messageDelete() {
+    this.toastr.success('Excluindo com sucesso!', 'Exclusão!');
   }
+
 
   private carregarReservas() {
     /*const id = String(this.route.snapshot.paramMap.get('id'));*/
