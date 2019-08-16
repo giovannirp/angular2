@@ -9,6 +9,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardDetailComponent } from 'src/app/shared/components/card-detail/card-detail.component';
 import { LivrosDetalhesComponent } from 'src/app/pages/livros-detalhes/livros-detalhes.component';
+import { ContactComponent } from 'src/app/pages/contact/contact.component';
 
 const ROUTES: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -18,7 +19,8 @@ const ROUTES: Routes = [
   {path: 'livros/:id', component: LivrosDetalhesComponent },
   {path: 'reservas', component: ReservasComponent},
   {path: 'reservas/:id', component: AlerarLivrosComponent},
-  {path: 'faq', component: FaqComponent}
+  {path: 'faq', component: FaqComponent},
+  {path: 'contact', component: ContactComponent}
 ];
 
 @NgModule({

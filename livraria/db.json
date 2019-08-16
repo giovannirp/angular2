@@ -175,7 +175,7 @@
   "reservas": [
     {
       "id": 40,
-      "nome": "Luanzitod tretaeed",
+      "nome": "Luanzitod",
       "nomelivro": "Beginning Angular with Typescript",
       "email": "falecido@hotmail.com"
     },
@@ -198,10 +198,22 @@
       "id": 45
     },
     {
-      "id": 46,
-      "nome": "Brenda New",
-      "nomelivro": "ASP Clássico - Programando na Web",
-      "email": "brenda@hotmail.com"
+      "nome": "Nutri",
+      "nomelivro": "Nutrição Comportamental",
+      "email": "nutri@hotmail.com",
+      "id": 46
+    },
+    {
+      "id": 47,
+      "nome": "Princi",
+      "nomelivro": "Em busca do ser:  never",
+      "email": "princi@hotmail.com"
+    },
+    {
+      "id": 48,
+      "nome": "Mamutão",
+      "nomelivro": "1000 lugares para conhecer te",
+      "email": "mamute@hotmail.com"
     }
   ],
   "faq": [

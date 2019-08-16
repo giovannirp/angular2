@@ -29,6 +29,7 @@ import { FaqComponent } from './pages/faq/faq.component';
 import { ValidationDirective } from './shared/directiva/validation.directive';
 import { ErrorComponentComponent } from './shared/components/error-component/error-component.component';
 import { AlerarLivrosComponent  } from './pages/alerar-livros/alerar-livros.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 
 
@@ -47,7 +48,8 @@ import { AlerarLivrosComponent  } from './pages/alerar-livros/alerar-livros.comp
     FaqComponent,
     ValidationDirective,
     ErrorComponentComponent,
-    AlerarLivrosComponent
+    AlerarLivrosComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
