@@ -50,7 +50,7 @@ import { ContactComponent } from './pages/contact/contact.component';
     ErrorComponentComponent,
     AlerarLivrosComponent,
     ContactComponent
-  ],
+  s ],
   imports: [
     BrowserModule,
     FormsModule,

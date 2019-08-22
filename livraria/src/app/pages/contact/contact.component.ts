@@ -9,7 +9,7 @@ export class ContactComponent implements OnInit {
 
   constructor() { }
 
-  users = [1, 2 , 3, 4, 1, 2 , 3, 4, 1, 2 , 3, 4, 1, 2 , 3, 4];
+  items = [1, 2 , 3, 4, 1, 2 , 3, 4, 1, 2 , 3, 4, 1, 2 , 3, 4];
 
   ngOnInit() {
   }
