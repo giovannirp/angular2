@@ -3,28 +3,50 @@
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque omnis, nostrum sint rerum odit itaque aspernatur quo quas quidem, delectus similique eveniet maxime aut voluptatum placeat vel a soluta recusandae!
   </p>
   <div class="col-sm-10 contact magin0auto">
-    <!-- <form action="">
+    <form [formGroup]="formContact">
       <div class="form-group">
         <label for="nome">Nome:</label>
-        <input type="email" class="form-control" id="nome">
+        <input type="email" formControlName="nome" class="form-control" appValidation showSuccess="true" placeholder="Digite seu nome" id="nome">
       </div>
+      <app-error-component [control]="nome"></app-error-component>
+
       <div class="form-group">
         <label for="telefone">Telefone:</label>
-        <input type="text" class="form-control" id="telefone">
+        <input type="text" formControlName="telefone" class="form-control" id="telefone">
       </div>
       <div class="form-group">
-        <label for="email">Telefone:</label>
-        <input type="email" class="form-control" id="email">
+        <label for="email">Email:</label>
+        <input type="email" formControlName="email" class="form-control" id="email">
       </div>
       <div class="form-group">
         <label for="mensagem">Mensagem:</label>
-        <textarea name="" class="form-control" id="" cols="30" rows="10"></textarea>
+        <textarea name="" formControlName="mensagem" class="form-control" id="" cols="30" rows="10"></textarea>
       </div>
       <div class="form-group">
-        <button class="btn btn-success">Enviar</button>
+        <button class="btn btn-success" (click)="sendForm()" [disabled]="!formContact.valid">Enviar</button>
       </div>
-    </form> -->
+    </form>
 
+    <div class="col-sm-10">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">nome</th>
+            <th scope="col">Email</th>
+            <th scope="col">Telefone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let listaContato of contact">
+            <th scope="row">{{listaContato.id}}</th>
+            <td>{{listaContato.nome}}</td>
+            <td>{{listaContato.email}}</td>
+            <td>{{listaContato.telefone}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
 
   </div>
