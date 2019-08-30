@@ -12,16 +12,22 @@
 
       <div class="form-group">
         <label for="telefone">Telefone:</label>
-        <input type="text" formControlName="telefone" class="form-control" id="telefone">
+        <input type="text" formControlName="telefone" class="form-control" appValidation showSuccess="true" placeholder="Digite seu telefone" id="telefone">
       </div>
+      <app-error-component [control]="telefone"></app-error-component>
+
       <div class="form-group">
         <label for="email">Email:</label>
-        <input type="email" formControlName="email" class="form-control" id="email">
+        <input type="email" formControlName="email" class="form-control" appValidation showSuccess="true" placeholder="Digite seu email" id="email">
       </div>
+      <app-error-component [control]="email"></app-error-component>
+
       <div class="form-group">
         <label for="mensagem">Mensagem:</label>
-        <textarea name="" formControlName="mensagem" class="form-control" id="" cols="30" rows="10"></textarea>
+        <textarea name="" formControlName="mensagem" class="form-control" placeholder="Digite sua mensagem" appValidation showSuccess="true" id="" cols="30" rows="10"></textarea>
       </div>
+      <app-error-component [control]="mensagem"></app-error-component>
+
       <div class="form-group">
         <button class="btn btn-success" (click)="sendForm()" [disabled]="!formContact.valid">Enviar</button>
       </div>
